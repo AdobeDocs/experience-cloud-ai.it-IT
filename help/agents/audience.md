@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Audience Agent, sono necessarie le seguenti autorizzazioni.
 >
 >**Visualizza segmenti**: questa autorizzazione ti consente di utilizzare Audience Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
->&#x200B;>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Audience Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Audience Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 Audience Agent consente di visualizzare informazioni sui tipi di pubblico, tra cui il rilevamento di modifiche significative nelle dimensioni del pubblico, il rilevamento di tipi di pubblico duplicati, l’esplorazione dell’inventario dei tipi di pubblico e il recupero delle dimensioni dei tipi di pubblico.
 
@@ -33,7 +33,7 @@ Audience Agent nell’Assistente IA supporta i seguenti casi d’uso:
 - Scopri i campi XDM da utilizzare per definire un pubblico
    - Questa abilità ti consente di identificare più facilmente i campi giusti da utilizzare nel pubblico in base al contesto e alla rilevanza
 
-Al momento Audience Agent **non** supporta le seguenti funzionalità:
+Audience Agent non supporta **attualmente** le seguenti funzionalità:
 
 - Creazione di un pubblico basato sulla conoscenza
    - La creazione di un pubblico basato sulla conoscenza sta creando un pubblico in base agli attributi e agli eventi forniti
