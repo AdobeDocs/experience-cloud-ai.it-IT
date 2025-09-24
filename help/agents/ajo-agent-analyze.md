@@ -4,9 +4,9 @@ description: Guida completa alle competenze di Journey Agent Analyze, che consen
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottim
 >Il Journey Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Journey Agent, sono necessarie le seguenti autorizzazioni.
 >
 >**Visualizza Percorsi**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare informazioni sul percorso direttamente nell&#39;Assistente IA.
->&#x200B;>**Gestisci Percorsi**: per l&#39;autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
->&#x200B;>**Visualizza segmenti**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente IA.
->&#x200B;>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>>**Gestisci Percorsi**: per l&#39;autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>>**Visualizza segmenti**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente IA.
+>>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 ![Esempio per AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono u
 
 ### Analisi dell’abbandono
 
-
+- &quot;Voglio analizzare l’abbandono per nodo per la campagna del 4 luglio percorso.&quot;
+- &quot;Esegui un’analisi dell’abbandono per la campagna del 4 luglio percorso.&quot;
+- &quot;Cos’è la perdita di profilo nel corso della campagna del 4° percorso di luglio?&quot;
+- &quot;Mostra dove gli utenti abbandonano la campagna del 4 luglio percorso.&quot;
 
 ### Prompt analisi conflitti
 
