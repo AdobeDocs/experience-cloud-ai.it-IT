@@ -23,9 +23,9 @@ Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottim
 >Il Journey Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Journey Agent, sono necessarie le seguenti autorizzazioni.
 >
 >**Visualizza Percorsi**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare informazioni sul percorso direttamente nell&#39;Assistente IA.
->>**Gestisci Percorsi**: per l&#39;autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
->>**Visualizza segmenti**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente IA.
->>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>&#x200B;>**Gestisci Percorsi**: per l&#39;autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>&#x200B;>**Visualizza segmenti**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente IA.
+>&#x200B;>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 ![Esempio per AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
