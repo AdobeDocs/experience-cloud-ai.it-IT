@@ -1,24 +1,30 @@
 ---
-title: Panoramica e guida utente di Journey Agent Analyze Skill
+title: Panoramica e guida utente di Percorsi Analyze Agent Skill
 description: Guida completa alle competenze di Journey Agent Analyze, che consente agli utenti di analizzare i percorsi di marketing, rilevare i problemi, scoprire informazioni approfondite e ottimizzare il coinvolgimento dei clienti.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 04afa45b0fae7aace9bd81afd2ac032c7d0f55c6
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
 
-# Analisi Journey Agent: panoramica delle abilità e guida utente
+# Agente analisi percorso: panoramica abilità e guida utente
 
 ## Panoramica
 
-Journey Agent consentirà agli utenti di Journey Optimizer di creare, analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono creare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o di pubblico, analizzare le prestazioni e i punti di abbandono e identificare percorsi dalle prestazioni migliori da replicare per le campagne future. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
+Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
+
+>[!AVAILABILITY]
+>
+>Audience Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Audience Agent, sono necessarie le seguenti autorizzazioni.
+>
+>**Visualizza segmenti**: questa autorizzazione ti consente di utilizzare Audience Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
+>>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Audience Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+
 
 ![Esempio per AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +56,8 @@ L’abilità Journey Agent Analyze offre una serie di funzionalità che possono 
 
    - Approfondimenti sul Percorso basati su prompt: visualizza informazioni operative sui percorsi, ad esempio &quot;mostrami tutti i percorsi live&quot;.
 
+Per ciascuna di queste analisi, l&#39;agente non solo rileva i problemi, ma fornisce anche **consigli utili per risolverli**.
+
 
 ## Abilità nell’ambito e al di fuori dell’ambito
 
@@ -59,6 +67,7 @@ Journey Agent Analyze supporta le seguenti funzionalità:
 
 - **Query reattive**: consente agli utenti di porre domande specifiche sulle prestazioni del percorso, sull&#39;utilizzo del pubblico e sui conflitti di pianificazione.
 - **Integrazione con altri agenti**: collabora con Audience Agent e Data Insights Agent per analisi più approfondite.
+- **Struttura della risposta dell&#39;agente**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
 
 ### **Fuori ambito**
 
@@ -92,6 +101,10 @@ Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono u
 
 - &quot;Quali tipi di pubblico vengono utilizzati in più di X percorsi?&quot;
 - &quot;Elenca tutti i percorsi che utilizzano il pubblico [nome pubblico].&quot;
+
+### Analisi dell’abbandono
+
+
 
 ### Prompt analisi conflitti
 
