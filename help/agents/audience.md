@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 >Audience Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Audience Agent, sono necessarie le seguenti autorizzazioni.
 >
 >**Visualizza segmenti**: questa autorizzazione ti consente di utilizzare Audience Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
->&#x200B;>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Audience Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>
+>**Gestisci segmenti**: con autorizzazione consente di utilizzare Audience Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 Audience Agent consente di visualizzare informazioni sui tipi di pubblico, tra cui il rilevamento di modifiche significative nelle dimensioni del pubblico, il rilevamento di tipi di pubblico duplicati, l’esplorazione dell’inventario dei tipi di pubblico e il recupero delle dimensioni dei tipi di pubblico.
 
@@ -25,27 +26,39 @@ Audience Agent consente di visualizzare informazioni sui tipi di pubblico, tra c
 Audience Agent nell’Assistente IA supporta i seguenti casi d’uso:
 
 - Trova la dimensione del pubblico e rileva cambiamenti significativi nella dimensione del pubblico
+
    - Questo consente di trovare tipi di pubblico che sono improvvisamente cresciuti o si sono ridotti, per analizzare meglio i potenziali cambiamenti di mercato
+
 - Rilevare tipi di pubblico duplicati
+
    - Questo consente di ridurre le ridondanze con il pubblico creato
+
 - Trova i tipi di pubblico in base agli attributi completi o parziali denominati
+
    - Questo consente di navigare più facilmente nel tuo inventario del pubblico
+
 - Scopri i campi XDM da utilizzare per definire un pubblico
+
    - Questa abilità ti consente di identificare più facilmente i campi giusti da utilizzare nel pubblico in base al contesto e alla rilevanza
 
 Audience Agent non supporta **attualmente** le seguenti funzionalità:
 
 - Creazione di un pubblico basato sulla conoscenza
+
    - La creazione di un pubblico basato sulla conoscenza sta creando un pubblico in base agli attributi e agli eventi forniti
    - Inoltre, puoi stimare la dimensione potenziale del pubblico prima di crearlo. Questo consente di eseguire rapidamente l’iterazione sul pubblico più efficace prima che sia pronto per l’attivazione
    - Il supporto per questa funzione sarà presto disponibile
+
 - Esplorazione del pubblico basata sugli obiettivi
+
    - L’esplorazione del pubblico basata sugli obiettivi consente di scoprire set di dati e profili rilevanti allineati a un obiettivo di business applicando modelli di apprendimento automatico come la propensione all’acquisto o alla conversione.
 
 Inoltre, quando utilizzi Audience Agent, tieni presente i seguenti vincoli:
 
 - Audience Agent richiede almeno 24 ore per elaborare i tuoi dati
+
    - **impossibile** ad esempio disporre di una query per la ricerca di dati nelle ultime 24 ore. Dovrai controllare almeno nelle ultime 48 ore.
+
 - Audience Agent supporta solo tipi di pubblico basati su **persone** che vengono valutati utilizzando la segmentazione batch
 
 ## Prompt di esempio

@@ -1,7 +1,7 @@
 ---
 title: Guida all’interfaccia utente di Assistente IA
 description: Scopri come accedere e utilizzare l’Assistente AI nell’interfaccia utente.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -57,12 +57,12 @@ L’interfaccia di AI Assistant include diversi elementi chiave per aiutarti a i
 La visualizzazione della barra consente di accedere rapidamente a chat, richieste di individuazione, aggiornamenti, conversazioni e controlli dell’interfaccia in un pannello compatto.
 
 1. **[!UICONTROL Chat]**: seleziona **[!UICONTROL Chat]** dall&#39;intestazione per tornare alla conversazione nel caso in cui ti sia lasciato per accedere a diversi elementi nell&#39;interfaccia.
-2. **[!UICONTROL Individuazione]**: selezionare **[!UICONTROL Individuazione]** per visualizzare un elenco di prompt dell&#39;Assistente IA organizzati per categoria. Puoi usare questi prompt preconfigurati per popolare la chat. Inoltre, puoi modificare i prompt suggeriti per soddisfare il tuo caso d’uso specifico.
-3. **[!UICONTROL Novità]**: seleziona **[!UICONTROL Novità]** per visualizzare un elenco degli ultimi aggiornamenti disponibili per l&#39;Assistente di intelligenza artificiale.
-4. **[!UICONTROL Conversazioni]**: seleziona l&#39;icona **[!UICONTROL Conversazioni]** per avviare una nuova conversazione e accedere alle conversazioni recenti dalla cronologia. Per ulteriori informazioni, consulta la sezione sulle [conversazioni](#conversations).
-5. **Visualizzazione a schermo intero**: seleziona l&#39;icona **[!UICONTROL Visualizzazione a schermo intero]** per modificare l&#39;interfaccia dell&#39;Assistente AI dalla barra a destra alla modalità a schermo intero.
-6. **Completamento automatico dati e oggetti**: selezionare l&#39;icona più per utilizzare i suggerimenti dati e oggetti e il completamento automatico. Se questa opzione è selezionata, è possibile utilizzare una finestra popup per selezionare le entità suggerite. Per ulteriori informazioni, leggere la sezione sul completamento automatico di [dati e oggetti](#autocomplete).
-7. **Impostazione contesto**: selezionare l&#39;icona Impostazione contesto per configurare le origini di informazioni per l&#39;Assistente IA. Puoi utilizzare questo strumento per configurare l’applicazione, la sandbox e la visualizzazione dati a cui fa riferimento l’Assistente AI per rispondere alla query. Per ulteriori informazioni, leggere la sezione relativa all&#39;[impostazione del contesto](#context-setting).
+1. **[!UICONTROL Individuazione]**: selezionare **[!UICONTROL Individuazione]** per visualizzare un elenco di prompt dell&#39;Assistente IA organizzati per categoria. Puoi usare questi prompt preconfigurati per popolare la chat. Inoltre, puoi modificare i prompt suggeriti per soddisfare il tuo caso d’uso specifico.
+1. **[!UICONTROL Novità]**: seleziona **[!UICONTROL Novità]** per visualizzare un elenco degli ultimi aggiornamenti disponibili per l&#39;Assistente di intelligenza artificiale.
+1. **[!UICONTROL Conversazioni]**: seleziona l&#39;icona **[!UICONTROL Conversazioni]** per avviare una nuova conversazione e accedere alle conversazioni recenti dalla cronologia. Per ulteriori informazioni, consulta la sezione sulle [conversazioni](#conversations).
+1. **Visualizzazione a schermo intero**: seleziona l&#39;icona **[!UICONTROL Visualizzazione a schermo intero]** per modificare l&#39;interfaccia dell&#39;Assistente AI dalla barra a destra alla modalità a schermo intero.
+1. **Completamento automatico dati e oggetti**: selezionare l&#39;icona più per utilizzare i suggerimenti dati e oggetti e il completamento automatico. Se questa opzione è selezionata, è possibile utilizzare una finestra popup per selezionare le entità suggerite. Per ulteriori informazioni, leggere la sezione sul completamento automatico di [dati e oggetti](#autocomplete).
+1. **Impostazione contesto**: selezionare l&#39;icona Impostazione contesto per configurare le origini di informazioni per l&#39;Assistente IA. Puoi utilizzare questo strumento per configurare l’applicazione, la sandbox e la visualizzazione dati a cui fa riferimento l’Assistente AI per rispondere alla query. Per ulteriori informazioni, leggere la sezione relativa all&#39;[impostazione del contesto](#context-setting).
 
 ![L&#39;Assistente AI nella visualizzazione della barra](./images/ai-assistant/rail-mode.png)
 

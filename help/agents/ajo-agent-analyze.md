@@ -4,7 +4,7 @@ description: Guida completa alle competenze di Journey Agent Analyze, che consen
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -23,9 +23,12 @@ Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottim
 >Il Journey Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Journey Agent, sono necessarie le seguenti autorizzazioni.
 >
 >**Visualizza Percorsi**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare informazioni sul percorso direttamente nell&#39;Assistente IA.
->&#x200B;>**Gestisci Percorsi**: per l&#39;autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
->&#x200B;>**Visualizza segmenti**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente IA.
->&#x200B;>**Gestisci segmenti**: con l&#39;autorizzazione Consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>
+>**Gestisci Percorsi**: con autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>
+>**Visualizza segmenti**: questa autorizzazione ti consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
+>
+>**Gestisci segmenti**: con autorizzazione consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 ![Esempio per AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -140,7 +143,6 @@ Utilizza questi prompt per analizzare i potenziali conflitti tra percorsi, inclu
 - &quot;Analizzare i rischi di conflitto per il nome del percorso [Percorso].&quot;
 - &quot;Specificare la diagnostica dei conflitti per [Nome Percorso].&quot;
 
-
 ## Best practice
 
 ### Best practice per la richiesta di assistenza
@@ -150,7 +152,6 @@ Per ottimizzare l’efficacia di Journey Agent Analyze, segui queste best practi
 1. **Essere specifici**: usa prompt chiari e concisi per ottenere informazioni mirate. Ad esempio, invece di chiedere &quot;Quali sono i miei percorsi?&quot;, specificare &quot;Elenca tutti i percorsi creati nell&#39;ultimo mese&quot;.
 1. **Combina approfondimenti**: integra gli approfondimenti da Audience Agent e Data Insights Agent per una visualizzazione olistica delle prestazioni del percorso.
 1. **Ottimizzazione iterativa**: utilizza l&#39;analisi di abbandono e sovrapposizione per perfezionare iterativamente la progettazione e la pianificazione del percorso.
-
 
 ### Best practice per l’installazione
 
