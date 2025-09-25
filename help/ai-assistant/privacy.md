@@ -16,13 +16,13 @@ Leggi questo documento per scoprire le funzionalità incentrate sulla fiducia de
 
 * Nessun dato personale viene utilizzato oggi da AI Assistant, anche a scopo di formazione.
 * L’Assistente AI non è a conoscenza dei dati del consumatore.
-* Tutti i criteri di [controllo dell&#39;accesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) esistenti verranno rispettati dall&#39;Assistente IA.
+* Tutti i criteri di [controllo dell&#39;accesso](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home) esistenti verranno rispettati dall&#39;Assistente IA.
 
    * Eventuali nuovi criteri di controllo dell’accesso basati su attributi vengono rispecchiati in IA Assistant dopo un massimo di 24 ore&ast;
 
 * Per interagire con l&#39;Assistente AI è necessario disporre dell&#39;autorizzazione esplicita.
 
-   * Puoi impostare le autorizzazioni in modo diverso per Experience Platform e Journey Optimizer utilizzando la [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse) e puoi utilizzare la [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) per assegnare le autorizzazioni per Customer Journey Analytics.
+   * Puoi impostare le autorizzazioni in modo diverso per Experience Platform e Journey Optimizer utilizzando la [Interfaccia utente autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/browse) e puoi utilizzare la [Admin Console](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/browse) per assegnare le autorizzazioni per Customer Journey Analytics.
    * Le autorizzazioni sono granulari e l’amministratore della sandbox può configurare quali dei tuoi utenti possono porre diverse categorie di domande (domande basate sulla conoscenza del prodotto con l’Assistente AI o domande sulle informazioni operative).
 
 * L&#39;Assistente AI è una funzione compatibile con HIPAA se utilizzata in combinazione con Adobe Experience Platform Healthcare Shield.
