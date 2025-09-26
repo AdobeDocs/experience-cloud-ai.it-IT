@@ -1,7 +1,7 @@
 ---
 title: Libreria prompt dell'Assistente AI
 description: Scopri i diversi tipi di prompt e pattern di prompt che è possibile utilizzare quando si esegue una query su Assistente IA.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -133,3 +133,4 @@ L’agente di supporto del prodotto consente di risolvere i problemi, creare cas
 
 - &quot;Quali sono le ultime notizie sul mio caso E-12345?&quot;
 - &quot;Qual è l&#39;aggiornamento del ticket E-67890?&quot;
+

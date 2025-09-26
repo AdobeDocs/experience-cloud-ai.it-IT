@@ -4,7 +4,7 @@ description: Guida completa alle competenze di Journey Agent Analyze, che consen
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Per ottimizzare l’efficacia di Journey Agent Analyze, segui queste best practi
 - **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi chiari (ad esempio, miglioramento della conservazione, aumento delle conversioni).
 - **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 - **Ottimizza segmentazione**: assicurati che la segmentazione del pubblico sia bilanciata per evitare affaticamento e massimizzare il coinvolgimento.
+

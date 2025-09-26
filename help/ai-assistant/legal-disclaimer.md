@@ -1,7 +1,7 @@
 ---
 title: Dichiarazione di non responsabilità - Dati personali, supporto linguistico e verifica delle risposte
 description: Scopri le clausole di esclusione della responsabilità legali relative ai dati personali, al supporto linguistico e alla verifica delle risposte durante l’utilizzo dell’Assistente IA.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ L’Assistente AI è attualmente supportato solo in inglese. Gli input non in in
 ## Verifica delle risposte {#verifying-responses}
 
 È importante verificare le risposte, in quanto i modelli di linguaggio possono commettere errori. Verifica sempre le origini per assicurarti che la logica SQL sia corretta e che sia stato fatto riferimento alla documentazione appropriata per il tuo caso d’uso. Rivedi i passaggi di ragionamento e le spiegazioni fornite dall’Assistente di intelligenza artificiale per capire come è arrivata alla risposta. Se qualcosa non va, invia un feedback.
+
