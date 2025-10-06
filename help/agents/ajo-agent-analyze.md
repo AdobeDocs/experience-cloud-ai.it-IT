@@ -1,13 +1,13 @@
 ---
 title: Panoramica e guida utente di Percorsi Analyze Agent Skill
-description: Guida completa alle competenze di Journey Agent Analyze, che consente agli utenti di analizzare i percorsi di marketing, rilevare i problemi, scoprire informazioni approfondite e ottimizzare il coinvolgimento dei clienti.
+description: Guida completa alle abilità di analisi dell’agente Journey, che consente agli utenti di analizzare i percorsi di marketing, rilevare problemi, scoprire approfondimenti e ottimizzare il coinvolgimento cliente.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 0%
+source-wordcount: '979'
+ht-degree: 38%
 
 ---
 
@@ -16,79 +16,81 @@ ht-degree: 0%
 
 ## Panoramica
 
-Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
+Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. I professionisti saranno in grado di effettuare decisioni guidate dai dati, migliorare il coinvolgimento cliente e semplificare l’orchestrazione del percorso.
+
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
->Il Journey Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Journey Agent, sono necessarie le seguenti autorizzazioni.
+>Il Journey Agent è disponibile per tutti i clienti che hanno accesso all’Assistente per l’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni di Journey Agent, sono necessarie le seguenti autorizzazioni:
 >
->**Visualizza Percorsi**: questa autorizzazione consente di utilizzare Journey Agent per visualizzare informazioni sul percorso direttamente nell&#39;Assistente IA.
+>**Visualizza Percorsi**: questa autorizzazione ti consente di visualizzare approfondimenti sul percorso direttamente nell&#39;Assistente AI.
 >
->**Gestisci Percorsi**: con autorizzazione consente di utilizzare Journey Agent per creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>**Gestisci Percorsi**: con autorizzazione consente di creare nuovi percorsi direttamente nell&#39;Assistente IA.
 >
->**Visualizza segmenti**: questa autorizzazione ti consente di utilizzare Journey Agent per visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
+>**Visualizza segmenti**: questa autorizzazione ti consente di visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
 >
->**Gestisci segmenti**: con autorizzazione consente di utilizzare Journey Agent per creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>**Gestisci segmenti**: con autorizzazione consente di creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
 
 ![Esempio per AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
 ## Casi d’uso
 
-### Casi d’uso principali per Journey Agent Analyze
+### Principali casi d’uso dell’analisi dell’agente Journey
 
-L’abilità Journey Agent Analyze offre una serie di funzionalità che possono essere utilizzate per ottimizzare le attività di marketing:
+La capacità di analisi dell’agente Journey offre una gamma di funzionalità che possono essere sfruttate per ottimizzare le attività di marketing:
 
-1. **Analisi Abbandono Percorso**
+1. **Analisi fall-out del percorso**
 
-   - Identifica dove e perché i clienti abbandonano durante un percorso.
-   - Rileva i pattern di comportamento del cliente che portano al disimpegno.
-   - Utilizza le informazioni per perfezionare la progettazione del percorso e migliorare la conservazione.
+   - Identifica il punto e il motivo per cui un percoso viene abbandonato dalla clientela.
+   - Identifica schemi nel comportamento della clientela che portano a interrompere il coinvolgimento.
+   - Utilizza gli insight per perfezionare i progetti di percorso e migliorare la conservazione.
 
-1. **Analisi sovrapposizione pubblico Percorso**
+1. **Analisi della sovrapposizione del pubblico del percorso**
 
-   - Analizzare la sovrapposizione del pubblico in più percorsi.
-   - Impedisci al pubblico di essere affaticato da un targeting eccessivo.
+   - Analizza la sovrapposizione del pubblico in diversi percorsi.
+   - Evita la stanchezza del pubblico causata da targeting eccessivo.
    - Ottimizza la segmentazione per garantire un coinvolgimento equilibrato.
 
-1. **Analisi sovrapposizione pianificazione Percorsi**
+1. **Analisi della sovrapposizione della pianificazione del percorso**
 
-   - Rileva i conflitti di tempistica tra percorsi pianificati che si rivolgono allo stesso pubblico.
-   - Evita comunicazioni eccessive e migliora l&#39;efficienza della pianificazione.
-   - Massimizza l’impatto sul pubblico garantendo che i percorsi vengano eseguiti in tempi ottimali.
+   - Rileva conflitti temporali tra percorsi pianificati destinati allo stesso pubblico.
+   - Evita l’eccessiva comunicazione e migliora l’efficienza della pianificazione.
+   - Ottimizza l’impatto sul pubblico, garantendo che i percorsi vengano eseguiti nel momento migliore.
 
-1. **Informazioni operative**
+1. **Insight operativi**
 
    - Approfondimenti sul Percorso basati su prompt: visualizza informazioni operative sui percorsi, ad esempio &quot;mostrami tutti i percorsi live&quot;.
 
 Per ciascuna di queste analisi, l&#39;agente non solo rileva i problemi, ma fornisce anche **consigli utili per risolverli**.
 
 
-## Abilità nell’ambito e al di fuori dell’ambito
+## Competenze rilevanti e non rilevanti per l’ambito
 
-### **Nell&#39;Ambito**
+### **Rilevanti per l’ambito**
 
-Journey Agent Analyze supporta le seguenti funzionalità:
+L’analisi dell’agente Journey supporta le seguenti funzionalità:
 
-- **Query reattive**: consente agli utenti di porre domande specifiche sulle prestazioni del percorso, sull&#39;utilizzo del pubblico e sui conflitti di pianificazione.
-- **Integrazione con altri agenti**: collabora con Audience Agent e Data Insights Agent per analisi più approfondite.
+- **Query reattive**: consentono agli utenti di porre domande specifiche riguardanti le prestazioni del percorso, l’utilizzo del pubblico e i conflitti di pianificazione.
+- **Integrazione con altri agenti**: collabora con Agente Audience e Agente Data Insights per analisi più approfondite.
 - **Struttura della risposta dell&#39;agente**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
 
-### **Fuori ambito**
+### **Non rilevanti per l’ambito**
 
-Le seguenti funzionalità non sono attualmente supportate:
+Attualmente, le seguenti funzonalità non sono supportate:
 
-- **Creazione automatica Percorso**
-- **Rilevamento delle anomalie in tempo reale**
-- **Sovrapposizione canali**
-- **Analisi delle voci di Percorso**
-- **Analisi dei problemi tecnici**
-- **Analisi affaticamento**
+- **Creazione automatizzata del percorso**
+- **Rilevamento di anomalie in tempo reale**
+- **Sovrapposizione di canali**
+- **Analisi dell’ingresso nel percorso**
+- **Analisi di un problema tecnico**
+- **Analisi della stanchezza**
 
-## Prompt di esempio / Prompt di esempio
+## Campioni/esempi di prompt
 
-### Richieste comuni per l&#39;analisi del Percorso
+### Prompt comuni per l’analisi del percorso
 
-Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono utilizzare per esplorare, monitorare e risolvere problemi dei propri percorsi.
+Di seguito sono disponibili alcuni esempi di prompt efficaci che gli utenti possono sfruttare per esplorare, monitorare e risolvere i problemi dei propri percorsi.
 
 ### Domande sul ciclo di vita del percorso
 
@@ -96,12 +98,12 @@ Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono u
 - &quot;Quando è stato interrotto [Nome Percorso]?&quot;
 - &quot;Elenca tutti i percorsi attualmente in modalità di test&quot;
 
-### Domande risorsa percorso
+### Domande sulle risorse del percorso
 
 - &quot;Quanti percorsi di vita ho?&quot;
 - &quot;Dammi un elenco di tutti i percorsi ricorrenti pianificati e dei loro orari di esecuzione previsti.&quot;
 
-### Informazioni su pubblico e Percorso
+### Insight sul pubblico e sul percorso
 
 - &quot;Quali tipi di pubblico vengono utilizzati in più di X percorsi?&quot;
 - &quot;Elenca tutti i percorsi che utilizzano il pubblico [nome pubblico].&quot;
@@ -113,9 +115,9 @@ Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono u
 - &quot;Cos’è la perdita di profilo nel corso della campagna del 4° percorso di luglio?&quot;
 - &quot;Mostra dove gli utenti abbandonano la campagna del 4 luglio percorso.&quot;
 
-### Prompt analisi conflitti
+### Prompt di analisi del conflitto
 
-Utilizza questi prompt per analizzare i potenziali conflitti tra percorsi, incluse le sovrapposizioni di pianificazione e pubblico:
+Utilizza questi prompt per analizzare possibili conflitti tra percorsi, incluse le sovrapposizioni di pianificazione e pubblico:
 
 - &quot;È possibile eseguire un&#39;analisi completa dei conflitti per il nome del percorso [Percorso] con informazioni sul tipo di conflitto (pianificazione/pubblico) con percorsi attivi/in esecuzione?&quot;
 - &quot;Eseguire un&#39;analisi dei conflitti di pianificazione per il percorso [Nome Percorso] con informazioni sul tipo di conflitto.&quot;
@@ -145,17 +147,17 @@ Utilizza questi prompt per analizzare i potenziali conflitti tra percorsi, inclu
 
 ## Best practice
 
-### Best practice per la richiesta di assistenza
+### Prompt per le best practice
 
-Per ottimizzare l’efficacia di Journey Agent Analyze, segui queste best practice:
+Per ottimizzare l’efficacia dell’analisi dell’agente Journey, segui queste best practice:
 
-1. **Essere specifici**: usa prompt chiari e concisi per ottenere informazioni mirate. Ad esempio, invece di chiedere &quot;Quali sono i miei percorsi?&quot;, specificare &quot;Elenca tutti i percorsi creati nell&#39;ultimo mese&quot;.
-1. **Combina approfondimenti**: integra gli approfondimenti da Audience Agent e Data Insights Agent per una visualizzazione olistica delle prestazioni del percorso.
-1. **Ottimizzazione iterativa**: utilizza l&#39;analisi di abbandono e sovrapposizione per perfezionare iterativamente la progettazione e la pianificazione del percorso.
+1. **Richieste specifiche**: utilizza prompt chiari e concisi per ottenere insight mirati. Ad esempio, invece di chiedere &quot;Quali sono i miei percorsi?&quot;, specificare &quot;Elenca tutti i percorsi creati nell&#39;ultimo mese&quot;.
+1. **Combina gli insights**: integra gli insight di Agente Audience e Agente Data Insights per una vista olistica delle prestazioni del percorso.
+1. **Miglioramento progressivo**: utilizza le analisi di fall-out e sovrapposizione per perfezionare in modo progressivo il progetto e la pianificazione del percorso.
 
-### Best practice per l’installazione
+### Impostare le best practice
 
-- **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi chiari (ad esempio, miglioramento della conservazione, aumento delle conversioni).
+- **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi precisi (per esempio migliorare la conservazione, aumentare le conversioni).
 - **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
-- **Ottimizza segmentazione**: assicurati che la segmentazione del pubblico sia bilanciata per evitare affaticamento e massimizzare il coinvolgimento.
+- **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
 
