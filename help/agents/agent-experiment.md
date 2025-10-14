@@ -1,12 +1,10 @@
 ---
 title: Agente di sperimentazione
 description: Scopri come utilizzare l’agente di sperimentazione
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 2%
 >
 >**Visualizza esperimenti**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per visualizzare informazioni approfondite sull&#39;esperimento direttamente nell&#39;Assistente IA.
 >
->**Gestisci esperimento Metada**: con autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
+>**Gestisci esperimento Metada**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
 
 ## Panoramica
 
