@@ -4,7 +4,7 @@ description: Scopri come le applicazioni Experience Cloud utilizzano l’IA gene
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -14,7 +14,7 @@ Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza 
 
 ## Elementi inclusi in questa guida
 
-### Assistente AI
+### Assistente IA
 
 [L&#39;Assistente AI](./ai-assistant/ai-assistant-ui.md) è uno strumento intelligente di IA conversazionale e generativo che aumenterà la produttività e ridefinirà il lavoro nelle applicazioni basate su Adobe Experience Platform. Gli utenti possono acquisire conoscenze sui prodotti, risolvere i problemi e ottenere informazioni operative attraverso messaggi in linguaggio naturale. È inoltre possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
 
@@ -28,7 +28,7 @@ Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza 
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) è il nuovo livello agente in Adobe Experience Platform. Progettata per sfruttare la ricca disponibilità di dati e le conoscenze dei clienti della piattaforma, Experience Platform Agent Orchestrator potenzia l&#39;intelligenza e il ragionamento alla base di esperti Adobe Experience Platform Agent appositamente creati, consentendo loro di eseguire attività complesse di processo decisionale e risoluzione dei problemi in modo rapido e su larga scala, il tutto con la supervisione umana. Quando fai domande o richiedi assistenza tramite il linguaggio naturale in un’interfaccia di conversazione come l’Assistente AI, Agent Orchestrator chiama automaticamente agenti specializzati per ottenere le risposte giuste. Agent Orchestrator ricorda la cronologia delle conversazioni e consente di basarsi sulle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina le informazioni provenienti da più agenti per fornire risposte chiare e unificate.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) è il nuovo livello agente in Adobe Experience Platform. Progettato per sfruttare la ricca disponibilità di dati e le conoscenze della clientela della piattaforma, Agent Orchestrator di Experience Platform potenzia le informazioni e il ragionamento alla base degli Agenti esperti di Adobe Experience Platform appositamente creati, consentendo loro di eseguire complesse attività decisionali e di risoluzione dei problemi in modo rapido e su larga scala, sempre con intervento umano. Quando poni domande o richiedi assistenza tramite il linguaggio naturale in un’interfaccia conversazionale come l’Assistente IA, Agent Orchestrator richiama automaticamente ad agenti specializzati per ottenere le risposte giuste. Agent Orchestrator ricorda la cronologia delle conversazioni e consente di basarsi sulle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina le informazioni provenienti da più agenti per fornire risposte chiare e unificate.
 
 **Componenti core:**
 
@@ -38,7 +38,7 @@ Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza 
 
 ### Agenti specializzati
 
-#### Audience Agent
+#### Agente Audience
 
 Fornisce informazioni approfondite sui tipi di pubblico, tra cui:
 

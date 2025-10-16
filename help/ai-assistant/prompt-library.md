@@ -4,7 +4,7 @@ description: Scopri i diversi tipi di prompt e pattern di prompt che è possibil
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Leggere questa guida per i diversi tipi di prompt che è possibile utilizzare nell&#39;Assistente IA.
 
-## Audience Agent
+## Agente Audience
 
 Le sezioni seguenti forniscono esempi di prompt che puoi utilizzare con Audience Agent per esplorare e analizzare i tipi di pubblico. Questi includono modi per analizzare le caratteristiche del pubblico, rilevare tipi di pubblico duplicati, recuperare le dimensioni del pubblico e monitorare modifiche significative nelle dimensioni del pubblico nel tempo. Utilizza questi prompt per ottenere informazioni più approfondite e mantenere la qualità dei dati sul pubblico.
 
@@ -67,19 +67,19 @@ I prompt di esempio seguenti possono essere utilizzati con Journey Agent per ana
 - &quot;Quando è stato interrotto {JOURNEY_NAME}?&quot;
 - &quot;Elenca tutti i percorsi attualmente in modalità di test&quot;
 
-### Domande risorsa percorso
+### Domande sulle risorse del percorso
 
 - &quot;Quanti percorsi di vita ho?&quot;
 - &quot;Dammi un elenco di tutti i percorsi ricorrenti pianificati e dei loro orari di esecuzione previsti.&quot;
 
-### Informazioni su pubblico e Percorso
+### Insight sul pubblico e sul percorso
 
 - &quot;Quali tipi di pubblico vengono utilizzati in più di X percorsi?&quot;
 - &quot;Elenca tutti i percorsi che utilizzano il pubblico {AUDIENCE_NAME}.&quot;
 
-### Prompt analisi conflitti
+### Prompt di analisi del conflitto
 
-Utilizza questi prompt per analizzare i potenziali conflitti tra percorsi, incluse le sovrapposizioni di pianificazione e pubblico:
+Utilizza questi prompt per analizzare possibili conflitti tra percorsi, incluse le sovrapposizioni di pianificazione e pubblico:
 
 +++Seleziona per visualizzare l’elenco
 

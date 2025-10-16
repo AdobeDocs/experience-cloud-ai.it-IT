@@ -4,11 +4,11 @@ description: Scopri come accedere e utilizzare l’Assistente AI nell’interfac
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Assistente AI
+# Assistente IA
 
 AI Assistant è uno strumento intelligente di intelligenza artificiale di tipo conversazionale che consente di aumentare la produttività e ridefinire il lavoro nelle applicazioni basate su Adobe Experience Platform. È possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
 
@@ -16,7 +16,7 @@ Leggi questa guida per scoprire come utilizzare l’Assistente AI.
 
 ![Interfaccia principale dell&#39;Assistente AI a schermo intero.](./images/ai-assistant/blank-home.png)
 
-## Accedi all’Assistente di AI
+## Accedere all’Assistente IA
 
 Esistono diversi modi per accedere all’Assistente IA.
 
@@ -122,7 +122,7 @@ Per verificare la risposta dell&#39;Assistente AI, selezionare **[!UICONTROL Ori
 
 ![Elenco delle origini a cui fa riferimento l&#39;Assistente di IA.](./images/ai-assistant/inputs/sources.png)
 
-### Fornisci feedback
+### Fornire feedback
 
 Puoi fornire un feedback sulla tua esperienza con l’Assistente AI utilizzando le opzioni fornite con la risposta.
 
@@ -226,7 +226,7 @@ L’Assistente AI supporta diversi tipi di grafo per la visualizzazione dei dati
 
 >[!BEGINTABS]
 
->[!TAB Riga]
+>[!TAB Line]
 
 Per visualizzare un grafico a linee, selezionare **[!UICONTROL Proprietà]**, quindi selezionare **[!UICONTROL Linea]**.
 

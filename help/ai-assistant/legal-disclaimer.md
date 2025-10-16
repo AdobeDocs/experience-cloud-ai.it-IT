@@ -4,7 +4,7 @@ description: Scopri le clausole di esclusione della responsabilità legali relat
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Leggi questo documento per informazioni sulle clausole di esclusione della respo
 
 ## Dati personali {#personal-data}
 
-L’Assistente AI utilizza un chatbot automatizzato. L’utilizzo di questo chatbot automatizzato costituisce il consenso per la raccolta, l’utilizzo, la divulgazione e la conservazione delle informazioni fornite nella sessione di chat da parte di Adobe e dei provider di servizi che agiscono per conto di Adobe in conformità ai termini dell’accordo tra la tua organizzazione e Adobe.
+L’Assistente IA utilizza un chatbot automatizzato. Utilizzando tale chatbot automatico, accetti che Adobe, e i fornitori di servizi che agiscono per conto di Adobe, possano raccogliere, utilizzare, divulgare e conservare le informazioni da te fornite nel corso della chat, in conformità ai termini dell’accordo tra la tua organizzazione e Adobe.
 
 Se devi includere dati personali qui, aggiungi solo ciò che è necessario e solo se hai il diritto di utilizzarli.
 

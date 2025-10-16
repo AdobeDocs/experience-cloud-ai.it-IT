@@ -5,45 +5,51 @@ source-wordcount: '281'
 ht-degree: 100%
 
 ---
-# Contributo
+# Come contribuire
 
-Grazie per aver scelto di contribuire!
+Grazie per aver scelto di contribuire.
 
-Di seguito è riportata una serie di linee guida da seguire per contribuire a questo progetto.
+Di seguito è riportato un set di linee guida da seguire quando si contribuisce a questo progetto.
 
-## Codice Di condotta
+## Codice di condotta
 
-Questo progetto è conforme al [Codice di condotta](code-of-conduct.md) di Adobe. Scegliendo di partecipare, si è tenuti a rispettare questo codice. Segnala un comportamento inaccettabile a
+Il progetto aderisce al [Codice di condotta](code-of-conduct.md) di Adobe. La partecipazione
+prevede il rispetto di tale codice. Segnala comportamenti inaccettabili all’indirizzo
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentazione della Guida per i collaboratori
+## Documentazione della guida per i collaboratori
 
 Consulta la [Guida per i collaboratori](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 ## Hai una domanda?
 
-Inizia a segnalare un problema. Gli attuali responsabili di questo progetto si adoperano per raggiungere un accordo sulla direzione del progetto e per elaborare soluzioni all’interno dei thread di discussione (se del caso).
+Inizia segnalando un problema. I committenti esistenti di questo progetto lavorano per raggiungere
+un consenso sulla direzione del progetto e sulla risoluzione dei problemi all’interno dei thread dei problemi
+(quando opportuno).
 
-## Contratto di licenza per i collaboratori
+## Contratto di licenza da collaboratore
 
-Tutti i contributi di terzi a questo progetto devono essere accompagnati da un contratto di licenza firmato. Questo consente ad Adobe di ridistribuire i contributi come parte del progetto. [Firma il nostro contratto di licenza](http://opensource.adobe.com/cla.html). È sufficiente inviare un contratto di licenza Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, sei pronto per iniziare!
+Tutti i contributi di terze parti a questo progetto devono essere accompagnati da un Contratto di licenza da collaboratore firmato. Ciò consente ad Adobe di ridistribuire i contributi
+come parte del progetto. [Firma il Contratto di licenza da collaboratore](http://opensource.adobe.com/cla.html). È sufficiente inviare un Contratto di licenza da collaboratore di Adobe una volta, quindi se ne hai inviato uno in precedenza non devi fare altre operazioni.
 
 ## Revisioni del codice
 
-Tutte le comunicazioni devono essere presentate sotto forma di richieste pull e devono essere riviste dai responsabili del progetto. Per ulteriori informazioni sull’invio di richieste pull, consulta la [documentazione sulle richieste pull di GitHub](https://help.github.com/articles/about-pull-requests/).
+Tutti gli invii devono pervenire sotto forma di richieste di pull e devono essere revisionati
+dai committenti del progetto. Per ulteriori informazioni sull’invio di richieste di pull,
+consulta la [Documentazione sulle richieste di pull di GitHub](https://help.github.com/it/articles/about-pull-requests/).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Da collaboratore a responsabile
+## Da collaboratore a committente
 
-Amiamo i contributi della nostra community! Se desideri spingerti oltre il ruolo di collaboratore
-e diventare un responsabile con pieno accesso in scrittura e voce in capitolo nel progetto, devi essere invitato nel progetto. Gli attuali responsabili utilizzano un processo di nomina
-interna basato sul silenzio assenso (la mancata risposta va intesa come accoglimento della proposta) prima che vengano rilasciati
-gli inviti. Se ti senti qualificato e vuoi essere maggiormente coinvolto, non esitare a rivolgerti agli attuali responsabili per discutere dell’argomento.
+Apprezziamo i contributi della nostra community. Se desideri essere qualcosa di più di un collaboratore e diventare un committente con accesso completo in scrittura e avere voce in capitolo sul progetto, devi essere invitato al progetto. I committenti esistenti utilizzano un processo di designazione 
+interno che deve raggiungere il consenso approssimativo (il silenzio rappresenta l’approvazione)
+prima di inviare gli inviti. Se ritieni di essere qualificato e desideri un coinvolgimento maggiore,
+rivolgiti ai committenti esistenti per parlarne con loro.
 
 ## Problemi di sicurezza
 
-I problemi di sicurezza non vanno denunciati su questo strumento di gestione dei problemi. [Segnala un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)
+I problemi di sicurezza non devono essere segnalati in questo registro di problemi, [Segnala un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)

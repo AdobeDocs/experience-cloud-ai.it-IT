@@ -1,15 +1,15 @@
 ---
-title: Audience Agent
+title: Agente Audience
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Audience Agent
+# Agente Audience
 
 >[!AVAILABILITY]
 >
