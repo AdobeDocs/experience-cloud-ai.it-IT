@@ -1,10 +1,10 @@
 ---
 title: IA nelle applicazioni Experience Cloud
 description: Scopri come le applicazioni Experience Cloud utilizzano l’IA generativa (GenAI), l’Assistente IA e l’IA agentica.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,12 @@ Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza 
 
 **Funzioni chiave:**
 
-- **Interfaccia conversazionale**: opzioni di visualizzazione a schermo intero e barra per diverse preferenze del flusso di lavoro
-- **Prompt di individuazione**: prompt preconfigurati organizzati per categoria (apprendimento, analisi, ottimizzazione)
-- **Impostazione contesto**: configura le impostazioni di applicazione, sandbox e visualizzazione dati per le risposte mirate
-- **Visualizzazione dati**: grafici interattivi per approfondimenti dati
-- **Verifica risposta**: citazioni di Source, spiegazioni di ragionamento e meccanismi di feedback
+- **Interfaccia conversazionale**: puoi scegliere tra un&#39;interfaccia a schermo intero e un&#39;interfaccia di visualizzazione della barra per adattarsi alle preferenze del flusso di lavoro.
+- **Prompt di individuazione**: l&#39;Assistente IA fornisce prompt preconfigurati organizzati per categorie quali Apprendi, Analizza e Ottimizza.
+- **Impostazione contesto**: è possibile configurare le impostazioni di applicazione, sandbox e visualizzazione dati per ricevere risposte personalizzate alle proprie esigenze.
+- **Visualizzazione dati**: lo strumento fornisce grafici e grafici interattivi che consentono di ottenere informazioni dai dati.
+- **Verifica risposta**: tutte le risposte includono citazioni di origine, spiegazioni del ragionamento dell&#39;intelligenza artificiale e meccanismi per fornire feedback.
+
 
 ### Agent Orchestrator
 
@@ -40,36 +41,36 @@ Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza 
 
 #### Agente Audience
 
-Fornisce informazioni approfondite sui tipi di pubblico, tra cui:
+Audience Agent fornisce informazioni approfondite sui tipi di pubblico, tra cui:
 
-- Rilevamento di cambiamenti significativi nelle dimensioni del pubblico
-- Identificazione di tipi di pubblico duplicati
-- Esplorazione dell’inventario del pubblico
-- Recupero dimensioni pubblico
+- Rilevamento di cambiamenti significativi nelle dimensioni del pubblico.
+- Identificazione di tipi di pubblico duplicati.
+- Esplorazione dell’inventario del pubblico.
+- Recupero dimensioni pubblico.
 
 #### Data Insights Agent
 
-Disponibile in Customer Journey Analytics, questo agente:
+Disponibile in Customer Journey Analytics, il Data Insights Agent:
 
-- Risponde alle domande sui dati utilizzando il linguaggio naturale
-- Genera visualizzazioni rilevanti in Analysis Workspace
-- Utilizza componenti dalla visualizzazione dati e dati effettivi
+- Risponde a domande sui dati utilizzando il linguaggio naturale.
+- Genera visualizzazioni rilevanti in Analysis Workspace.
+- Utilizza componenti dalla visualizzazione dati e dati effettivi.
 
 #### Journey Agent
 
-Consente agli utenti di Journey Optimizer di:
+Journey Agent consente agli utenti di Adobe Journey Optimizer di:
 
-- Analisi e ottimizzazione dei percorsi in linguaggio naturale
-- Rilevare e risolvere i conflitti di pianificazione o pubblico
-- Analisi delle prestazioni e dei punti di rilascio
+- Analizzare e ottimizzare i percorsi utilizzando il linguaggio naturale.
+- Rileva e risolvi i conflitti di pianificazione o pubblico.
+- Analizzare le prestazioni e i punti di rilascio.
 
 #### Agente di supporto prodotto
 
-Offre funzionalità self-service di debug e risoluzione dei problemi:
+Utilizzare il Product Support Agent per il debug self-service e la risoluzione dei problemi:
 
-- Risolvere i problemi relativi alle funzioni di Adobe Experience Platform senza uscire dai flussi di lavoro
-- Creare ticket di supporto con il contesto dalle interazioni dell’Assistente IA
-- Controllare gli aggiornamenti dei ticket tramite l’Assistente AI
+- Risolvere i problemi relativi alle funzioni di Adobe Experience Platform senza uscire dai flussi di lavoro.
+- Crea ticket di supporto con il contesto dalle interazioni dell’Assistente IA.
+- Controlla gli aggiornamenti dei ticket tramite l’Assistente AI.
 
 ## Introduzione
 
@@ -77,33 +78,30 @@ Offre funzionalità self-service di debug e risoluzione dei problemi:
 
 Per utilizzare l’Assistente AI e gli agenti Experience Platform, l’amministratore Adobe deve impostare le autorizzazioni appropriate:
 
-- **Real-Time CDP e Adobe Journey Optimizer**: sono necessarie le autorizzazioni &quot;Abilita Assistente IA&quot; e &quot;Visualizza informazioni operative&quot; per le domande operative
-- **Customer Journey Analytics**: accesso tramite il controllo di accesso di Customer Journey Analytics per domande relative a informazioni sul prodotto e sui dati
-- **Adobe Experience Manager**: accesso tramite Adobe Admin Console
+- Per utilizzare l’Assistente AI in Real-Time CDP e Adobe Journey Optimizer, è necessario disporre dell’autorizzazione &quot;Abilita Assistente AI&quot; e dell’autorizzazione &quot;Visualizza informazioni operative&quot; per accedere alle domande operative.
+- L’accesso a AI Assistant in Customer Journey Analytics viene gestito tramite Customer Journey Analytics Access Control, che consente di porre domande relative sia alla conoscenza del prodotto che all’approfondimento dei dati.
+- Per Adobe Experience Manager, puoi accedere all’Assistente AI tramite le autorizzazioni impostate in Adobe Admin Console.
 
 ### Privacy e sicurezza
 
 L’Assistente per l’intelligenza artificiale è stato creato con privacy, sicurezza e governance in prima linea:
 
-- Nessun dato personale viene utilizzato per la formazione
-- Tutti i criteri di controllo di accesso esistenti vengono rispettati
-- Compatibilità HIPAA con Adobe Experience Platform Healthcare Shield
-- Regole di conservazione di 30 giorni per i registri di interazione
-- Isolamento dei dati specifici della sandbox
+- Nessun dato personale viene utilizzato per la formazione.
+- Vengono rispettati tutti i criteri di controllo di accesso esistenti.
+- Compatibile con HIPAA se utilizzato con Adobe Experience Platform Healthcare Shield.
+- Regole di conservazione di 30 giorni per i registri di interazione.
+- Isolamento dei dati specifico per la sandbox.
 
 ## Best practice
 
-- **Specifica** nelle richieste per ottenere informazioni mirate
-- **Verifica le risposte** utilizzando le citazioni di origine e le spiegazioni del ragionamento
-- **Utilizza l&#39;impostazione del contesto** per garantire le origini dati rilevanti
-- **Fornisci un feedback** per migliorare le prestazioni dell&#39;Assistente AI
-- **Combina approfondimenti** da più agenti per un&#39;analisi completa
+Per ottenere il massimo valore dall’esperienza di AI Assistant, segui queste best practice:
+
+- **Specifica** nelle richieste per ottenere informazioni mirate e rilevanti dall&#39;Assistente AI.
+- **Verifica le risposte** esaminando le citazioni di origine e le spiegazioni di ragionamento fornite dall&#39;Assistente di IA.
+- **Utilizza l&#39;impostazione del contesto** per assicurarti che per le tue domande vengano utilizzate le origini dati più rilevanti.
+- **Fornisci un feedback** per migliorare le prestazioni e la precisione dell&#39;Assistente AI nel tempo.
+- **Combina le informazioni** provenienti da più agenti per ottenere un&#39;analisi più completa e accurata.
 
 ## Considerazioni giuridiche
 
-- L’Assistente IA attualmente supporta solo la lingua inglese
-- Verifica sempre le risposte in quanto i modelli di lingua possono commettere errori
-- Rivedere le fasi di ragionamento e le spiegazioni fornite
-- Invia feedback per qualsiasi problema o imprecisione
-
-Questa guida fornisce tutto il necessario per utilizzare in modo efficace le funzionalità di intelligenza artificiale nelle applicazioni Experience Cloud, dalle interazioni di base all’orchestrazione avanzata degli agenti e ai flussi di lavoro specializzati.
+Quando si utilizza AI Assistant, è importante essere a conoscenza delle principali considerazioni legali e pratiche. Attualmente, l’Assistente AI supporta solo le risposte in inglese. Presta sempre attenzione alla verifica delle informazioni fornite, in quanto i modelli linguistici possono occasionalmente commettere errori. Utilizza i passaggi di ragionamento e le spiegazioni incluse nelle risposte per comprendere meglio le risposte che ricevi. In caso di problemi o imprecisioni, invia un feedback per contribuire a migliorare l’Assistente AI nel tempo.
