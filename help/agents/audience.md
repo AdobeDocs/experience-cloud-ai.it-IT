@@ -1,9 +1,9 @@
 ---
 title: Agente Audience
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -25,47 +25,47 @@ Audience Agent consente di visualizzare informazioni sui tipi di pubblico, tra c
 
 Audience Agent nell’Assistente IA supporta i seguenti casi d’uso:
 
-- Trova la dimensione del pubblico e rileva cambiamenti significativi nella dimensione del pubblico
-
+- Esplorare il pubblico in modo conversazionale
+   - Trovare le dimensioni dei tipi di pubblico esistenti
+   - Cerca tipi di pubblico basati su attributi completi o parziali denominati
+   - Rilevare tipi di pubblico duplicati
+   - Scopri i campi XDM da utilizzare per definire un pubblico
+- Rilevare cambiamenti significativi nelle dimensioni del pubblico
    - Questo consente di trovare tipi di pubblico che sono improvvisamente cresciuti o si sono ridotti, per analizzare meglio i potenziali cambiamenti di mercato
 
-- Rilevare tipi di pubblico duplicati
-
-   - Questo consente di ridurre le ridondanze con il pubblico creato
-
-- Trova i tipi di pubblico in base agli attributi completi o parziali denominati
-
-   - Questo consente di navigare più facilmente nel tuo inventario del pubblico
-
-- Scopri i campi XDM da utilizzare per definire un pubblico
-
-   - Questa abilità ti consente di identificare più facilmente i campi giusti da utilizzare nel pubblico in base al contesto e alla rilevanza
+<!-- - Find your audience size and detect significant changes in audience size
+  - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
+- Detect duplicate audiences
+  - This lets you reduce redundancies with your created audiences
+- Find audiences based on full or partial attributes named
+  - This lets you more easily navigate through your audience inventory
+- Discover XDM fields you can use to define an audience
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
 Audience Agent non supporta **attualmente** le seguenti funzionalità:
 
 - Creazione di un pubblico basato sulla conoscenza
-
    - La creazione di un pubblico basato sulla conoscenza sta creando un pubblico in base agli attributi e agli eventi forniti
    - Inoltre, puoi stimare la dimensione potenziale del pubblico prima di crearlo. Questo consente di eseguire rapidamente l’iterazione sul pubblico più efficace prima che sia pronto per l’attivazione
    - Il supporto per questa funzione sarà presto disponibile
-
 - Esplorazione del pubblico basata sugli obiettivi
-
    - L’esplorazione del pubblico basata sugli obiettivi consente di scoprire set di dati e profili rilevanti allineati a un obiettivo di business applicando modelli di apprendimento automatico come la propensione all’acquisto o alla conversione.
 
 Inoltre, quando utilizzi Audience Agent, tieni presente i seguenti vincoli:
 
 - Audience Agent richiede almeno 24 ore per elaborare i tuoi dati
-
    - **impossibile** ad esempio disporre di una query per la ricerca di dati nelle ultime 24 ore. Dovrai controllare almeno nelle ultime 48 ore.
-
-- Audience Agent supporta solo tipi di pubblico basati su **persone** che vengono valutati utilizzando la segmentazione batch
+- Audience Agent supporta solo i seguenti tipi di pubblico:
+   - **Tipi di pubblico basati sulle persone** valutati mediante segmentazione batch
+   - **Tipi di pubblico basati sull&#39;account** per i seguenti casi d&#39;uso:
+      - Esplorazione del pubblico conversazionale
+      - Rilevamento di pubblico duplicato
 
 ## Prompt di esempio
 
 Negli esempi seguenti vengono illustrati i prompt di esempio e le risposte per Audience Agent.
 
-### Esplorazione del pubblico di conversazione
+### Esplorazione del pubblico conversazionale
 
 Mostrami i campi per gli acquirenti benestanti.
 
@@ -88,6 +88,14 @@ Elenca tutti i tipi di pubblico che sono stati mappati sulle nuove destinazioni 
 +++ Risposta
 
 ![L&#39;Assistente AI elenca il pubblico mappato a una nuova destinazione negli ultimi 3 mesi.](./images/audience/new-destination.png)
+
++++
+
+Quale pubblico dell’account ha la dimensione di pubblico più grande e qual è tale dimensione?
+
++++ Risposta
+
+![L&#39;Assistente AI mostra una tabella che visualizza i tipi di pubblico dell&#39;account più grandi.](./images/audience/largest-account-audience.png)
 
 +++
 
@@ -114,6 +122,14 @@ Mostra tutti i tipi di pubblico che hanno le stesse regole ma destinazioni di at
 +++ Risposta
 
 ![L&#39;Assistente AI mostra che non sono presenti definizioni di segmenti duplicate in destinazioni diverse.](./images/audience/same-rules-different-destinations.png)
+
++++
+
+Identifica i tipi di pubblico dell’account che hanno le stesse regole ma nomi diversi.
+
++++ Risposta
+
+![L&#39;Assistente IA visualizza una tabella contenente i nomi e gli ID dei tipi di pubblico dell&#39;account che condividono le stesse regole di pubblico.](./images/audience/duplicate-account-audience.png)
 
 +++
 
