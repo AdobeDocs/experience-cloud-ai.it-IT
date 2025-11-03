@@ -1,9 +1,9 @@
 ---
 title: IA nelle applicazioni Experience Cloud
 description: Scopri come le applicazioni Experience Cloud utilizzano l’IA generativa (GenAI), l’Assistente IA e l’IA agentica.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Audience Agent fornisce informazioni approfondite sui tipi di pubblico, tra cui:
 - Esplorazione dell’inventario del pubblico.
 - Recupero dimensioni pubblico.
 
+Per ulteriori informazioni, consulta la [documentazione di Audience Agent](./agents/audience.md).
+
 #### Data Insights Agent
 
 Disponibile in Customer Journey Analytics, il Data Insights Agent:
@@ -56,13 +58,15 @@ Disponibile in Customer Journey Analytics, il Data Insights Agent:
 - Genera visualizzazioni rilevanti in Analysis Workspace.
 - Utilizza componenti dalla visualizzazione dati e dati effettivi.
 
-#### Journey Agent
+#### Agente analisi percorso
 
-Journey Agent consente agli utenti di Adobe Journey Optimizer di:
+L’agente di analisi del Percorso consente agli utenti di Adobe Journey Optimizer di:
 
 - Analizzare e ottimizzare i percorsi utilizzando il linguaggio naturale.
 - Rileva e risolvi i conflitti di pianificazione o pubblico.
 - Analizzare le prestazioni e i punti di rilascio.
+
+Per ulteriori informazioni, leggere la [documentazione dell&#39;agente di analisi del Percorso](./agents/ajo-agent-analyze.md).
 
 #### Agente di supporto prodotto
 
@@ -71,6 +75,8 @@ Utilizzare il Product Support Agent per il debug self-service e la risoluzione d
 - Risolvere i problemi relativi alle funzioni di Adobe Experience Platform senza uscire dai flussi di lavoro.
 - Crea ticket di supporto con il contesto dalle interazioni dell’Assistente IA.
 - Controlla gli aggiornamenti dei ticket tramite l’Assistente AI.
+
+Per ulteriori informazioni, leggere la [documentazione dell&#39;agente di supporto tecnico](./agents/product-support.md).
 
 ## Introduzione
 
