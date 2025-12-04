@@ -1,9 +1,9 @@
 ---
 title: Agente di sperimentazione
 description: Scopri come utilizzare l’agente di sperimentazione
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->L’agente di sperimentazione è disponibile per tutti i clienti che hanno accesso all’assistente di intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni dell’agente di sperimentazione, sono necessarie le seguenti autorizzazioni.
+>L’agente di sperimentazione è disponibile per tutti i clienti che hanno acquistato la licenza a pagamento di Journey Optimizer Experimentation Accelerator e si integra perfettamente con Adobe Target o Adobe Journey Optimizer.
 >
->**Visualizza esperimenti**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per visualizzare informazioni approfondite sull&#39;esperimento direttamente nell&#39;Assistente IA.
->
->**Gestisci esperimento Metada**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
+>[Ulteriori informazioni su Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/overview)
 
 ## Panoramica
 
 L&#39;**agente di sperimentazione** è uno strumento basato sull&#39;intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti Web, e-mail, messaggi push e applicazioni. Basato sulla piattaforma di intelligenza artificiale e sugli strumenti di sperimentazione di Adobe Experience Platform, l&#39;**agente di sperimentazione** consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.
+
+Le seguenti autorizzazioni per utilizzare completamente le funzioni dell’agente di sperimentazione.
+
+* **Visualizza esperimenti**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per visualizzare informazioni approfondite sull&#39;esperimento direttamente nell&#39;Assistente IA.
+
+* **Gestisci esperimento Metada**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
+
+➡️ [Ulteriori informazioni nella documentazione di Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Come parte della funzione di Experimentation Accelerator, l’agente offre:
 
