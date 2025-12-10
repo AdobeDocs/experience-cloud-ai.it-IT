@@ -1,9 +1,9 @@
 ---
 title: Agente Audience
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ Audience Agent nell’Assistente IA supporta i seguenti casi d’uso:
    - Scopri i campi XDM da utilizzare per definire un pubblico
 - Rilevare cambiamenti significativi nelle dimensioni del pubblico
    - Questo consente di trovare tipi di pubblico che sono improvvisamente cresciuti o si sono ridotti, per analizzare meglio i potenziali cambiamenti di mercato
+- Creazione di un pubblico
+   - Questa abilità ti consente di creare un pubblico in base agli attributi e agli eventi forniti
+   - Inoltre, questa abilità ti consente di stimare le dimensioni potenziali di un pubblico prima di crearlo, consentendoti di eseguire rapidamente l’iterazione del pubblico più efficace prima che sia pronto per essere attivato
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ Audience Agent nell’Assistente IA supporta i seguenti casi d’uso:
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-Audience Agent non supporta **attualmente** le seguenti funzionalità:
+Audience Agent non supporta **attualmente** la seguente funzionalità:
 
-- Creazione di un pubblico basato sulla conoscenza
-   - La creazione di un pubblico basato sulla conoscenza sta creando un pubblico in base agli attributi e agli eventi forniti
-   - Inoltre, puoi stimare la dimensione potenziale del pubblico prima di crearlo. Questo consente di eseguire rapidamente l’iterazione sul pubblico più efficace prima che sia pronto per l’attivazione
-   - Il supporto per questa funzione sarà presto disponibile
 - Esplorazione del pubblico basata sugli obiettivi
    - L’esplorazione del pubblico basata sugli obiettivi consente di scoprire set di dati e profili rilevanti allineati a un obiettivo di business applicando modelli di apprendimento automatico come la propensione all’acquisto o alla conversione.
 
@@ -178,6 +177,80 @@ Qual è il mio pubblico in più rapida crescita?
 ![L&#39;Assistente AI indica il nome del pubblico in più rapida crescita, nonché le dimensioni correnti e la percentuale di crescita.](./images/audience/fastest-growing.png)
 
 +++
+
+### Creazione di un pubblico
+
+Quando crei un pubblico con Audience Agent, l’Assistente AI ti guiderà attraverso un piano. Ad esempio, puoi chiedere di &quot;Creare un pubblico composto da persone che vivono in California&quot;. Assistente IA elenca quindi il piano che verrà intrapreso per creare il pubblico.
+
++++ Risposta
+
+![L&#39;Assistente AI mostra il piano per la creazione di un pubblico.](./images/audience/audience-create-plan.png)
+
++++
+
+Il piano si articola in tre fasi:
+
+1. [Identificare le caratteristiche del pubblico](#identify)
+2. [Stimare la dimensione del pubblico](#estimate)
+3. [Creare e mantenere un nuovo pubblico](#create)
+
+#### Identificare le caratteristiche del pubblico {#identify}
+
+![Passaggio 1 del piano, che consiste nell&#39;identificare le caratteristiche del pubblico.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+Dopo aver accettato il piano, l’Assistente AI acquisirà le caratteristiche del pubblico in base alla query iniziale.
+
++++ Risposta
+
+![La definizione del pubblico basata sulla query utente.](./images/audience/audience-create-definition.png)
+
+Per questa query, l’Assistente AI genera il Profile Query Language (PQL) rilevante che cercherà le persone che vivono in California. In questo caso d’uso, la query PQL sarà simile alla seguente:
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Per ulteriori informazioni su PQL, leggere la [panoramica di PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Se la definizione del pubblico dell’Assistente AI è corretta, puoi approvare e passare al passaggio successivo.
+
+#### Stimare la dimensione del pubblico {#estimate}
+
+![Passaggio 2 del piano, che consiste nel stimare la dimensione del pubblico potenziale.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+Dopo aver approvato le caratteristiche del pubblico identificato, AI Assistant stimerà le dimensioni del pubblico potenziale e i dettagli di definizione del pubblico.
+
++++ Risposta
+
+![Viene visualizzata la stima di esempio per il pubblico potenziale. Vengono visualizzate la dimensione stimata e la definizione del segmento.](./images/audience/audience-create-estimate.png)
+
++++
+
+Se la dimensione stimata è corretta, puoi approvare e passare al passaggio successivo.
+
+#### Creare e mantenere un nuovo pubblico {#create}
+
+![Passaggio 3 del piano, che consiste nel completare la creazione del pubblico.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Infine, se le caratteristiche e le dimensioni del pubblico sono corrette, puoi approvare o rifiutare la creazione del pubblico.
+
++++ Risposta
+
+Innanzitutto, puoi esaminare il pubblico proposto tramite la griglia dati fornita.
+
+![Viene visualizzata la schermata di revisione.](./images/audience/audience-create-review.png)
+
+Se il pubblico è corretto, puoi accettare la proposta selezionando **[!UICONTROL Crea]** per completare la creazione del pubblico.
+
+![Viene visualizzata la proposta completa per il pubblico.](./images/audience/audience-create-proposal.png)
+
++++
+
+Il pubblico viene ora creato.
+
+![La proposta di pubblico è stata accettata e il pubblico è stato creato.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Passaggi successivi
 
