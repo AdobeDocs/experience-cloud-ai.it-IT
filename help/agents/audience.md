@@ -1,9 +1,9 @@
 ---
 title: Agente Audience
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Qual è il mio pubblico in più rapida crescita?
 
 ### Creazione di un pubblico
 
+>[!AVAILABILITY]
+>
+>Puoi utilizzare l’abilità Crea pubblico solo se fai parte del programma Agent Orchestrator Explorer. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
+
 Quando crei un pubblico con Audience Agent, l’Assistente AI ti guiderà attraverso un piano. Ad esempio, puoi chiedere di &quot;Creare un pubblico composto da persone che vivono in California&quot;. Assistente IA elenca quindi il piano che verrà intrapreso per creare il pubblico.
 
 +++ Risposta
@@ -210,7 +214,7 @@ Per questa query, l’Assistente AI genera il Profile Query Language (PQL) rilev
 homeAddress.state.equals("California", false)
 ```
 
-Per ulteriori informazioni su PQL, leggere la [panoramica di PQL](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/pql/overview).
+Per ulteriori informazioni su PQL, leggere la [panoramica di PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
