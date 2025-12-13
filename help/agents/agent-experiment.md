@@ -26,7 +26,7 @@ Le seguenti autorizzazioni per utilizzare completamente le funzioni dell’agent
 
 * **Gestisci esperimento Metada**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
 
-➡️ [Ulteriori informazioni nella documentazione di Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Ulteriori informazioni nella documentazione di Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Come parte della funzione di Experimentation Accelerator, l’agente offre:
 
