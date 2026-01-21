@@ -22,9 +22,9 @@ Journey Agent si compone di due competenze principali:
 - **Agente di creazione Percorso**: genera e configura percorsi di marketing tramite prompt in linguaggio naturale
 - **Percorso Analizza agente**: analizza i percorsi, rileva i problemi, scopri informazioni e ottimizza il coinvolgimento dei clienti
 
----
+&#x200B;---
 
-# Percorsi Create Agent: panoramica delle abilità e guida utente
+&#x200B;# Percorsi Create Agent: panoramica delle abilità e guida utente
 
 ## Panoramica
 
@@ -161,9 +161,9 @@ Quando un utente accede alla posizione del mio archivio, invia un messaggio di b
 - **Pianifica contenuto messaggio**: definire la strategia di messaggistica prima di creare il percorso.
 - **Esperienza cliente**: progettare flussi di percorso che rispettino le preferenze del cliente ed evitino comunicazioni eccessive.
 
----
+&#x200B;---
 
-# Agente analisi percorso: panoramica abilità e guida utente
+&#x200B;# Agente analisi percorso: panoramica abilità e guida utente
 
 ## Panoramica
 
@@ -311,7 +311,7 @@ Per ottimizzare l’efficacia dell’analisi dell’agente Journey, segui queste
 - **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 - **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
 
----
+&#x200B;---
 
 ## Diapositive e presentazioni
 
