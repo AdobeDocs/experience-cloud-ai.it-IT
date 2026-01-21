@@ -4,7 +4,7 @@ description: Guida completa a Journey Agent, che consente agli utenti di creare,
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 18%
@@ -22,9 +22,7 @@ Journey Agent si compone di due competenze principali:
 - **Agente di creazione Percorso**: genera e configura percorsi di marketing tramite prompt in linguaggio naturale
 - **Percorso Analizza agente**: analizza i percorsi, rileva i problemi, scopri informazioni e ottimizza il coinvolgimento dei clienti
 
-&#x200B;---
-
-&#x200B;# Percorsi Create Agent: panoramica delle abilità e guida utente
+## Percorsi Create Agent: panoramica delle abilità e guida utente
 
 ## Panoramica
 
@@ -161,15 +159,13 @@ Quando un utente accede alla posizione del mio archivio, invia un messaggio di b
 - **Pianifica contenuto messaggio**: definire la strategia di messaggistica prima di creare il percorso.
 - **Esperienza cliente**: progettare flussi di percorso che rispettino le preferenze del cliente ed evitino comunicazioni eccessive.
 
-&#x200B;---
-
-&#x200B;# Agente analisi percorso: panoramica abilità e guida utente
+## Agente analisi percorso: panoramica abilità e guida utente
 
 ## Panoramica
 
 Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. I professionisti saranno in grado di effettuare decisioni guidate dai dati, migliorare il coinvolgimento cliente e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Per ottimizzare l’efficacia dell’analisi dell’agente Journey, segui queste
 - **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi precisi (per esempio migliorare la conservazione, aumentare le conversioni).
 - **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 - **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
-
-&#x200B;---
 
 ## Diapositive e presentazioni
 
