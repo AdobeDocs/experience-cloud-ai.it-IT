@@ -1,7 +1,7 @@
 ---
 title: Guida all’interfaccia utente dell’Assistente IA
 description: Scopri come accedere e utilizzare l’Assistente AI nell’interfaccia utente.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -72,7 +72,7 @@ La visualizzazione della barra consente di accedere rapidamente a chat, richiest
 
 Questa sezione fornisce una panoramica delle funzioni principali e delle opzioni di navigazione nell’interfaccia utente di AI Assistant. Spiega come accedere all’Assistente AI, descrive il layout e i controlli sia nelle visualizzazioni a schermo intero che nelle visualizzazioni a barra, e introduce strumenti chiave come conversazioni, funzioni di input, completamento automatico, impostazione del contesto e prompt di individuazione. Le sezioni seguenti forniscono indicazioni dettagliate sull’utilizzo di queste funzioni per interagire con l’Assistente AI e ottenere il massimo dalla tua esperienza.
 
-### Richieste di individuazione
+### Richieste di individuazione {#discovery-prompts}
 
 È possibile utilizzare la funzione di individuazione dell&#39;Assistente IA per visualizzare un elenco dei soggetti generali, raggruppati in entità, supportati dall&#39;Assistente AI. I prompt di individuazione variano a seconda del punto iniziale.
 
