@@ -1,10 +1,10 @@
 ---
 title: Versione di prova per agenti Adobe Experience Platform con associazione all'utilizzo
 description: Scopri la versione di prova gratuita per gli agenti Adobe Experience Platform.
-source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
+source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '1023'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Adobe determinerà a sua esclusiva discrezione la tua idoneità alla sperimentazione. I clienti che hanno o avevano in precedenza una licenza di Adobe Experience Platform Agent Orchestrator Promotion o una licenza di Experience Platform Agents AI Credits non sono idonei per la versione di prova.
 
-I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -42,6 +42,50 @@ Per informazioni sugli agenti disponibili, leggere la [panoramica di Agent Orche
 >[!TIP]
 >
 >Ottieni aiuto - Invia una richiesta a [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+
+## Domande frequenti {#faq}
+
+Leggi quanto segue per le risposte alle domande frequenti relative alla versione di prova legata all’utilizzo degli agenti Experience Platform.
+
+### Cos’è la versione di prova associata all’utilizzo degli agenti Adobe Experience Platform?
+
+La versione di prova con associazione all’utilizzo degli agenti Adobe Experience Platform consente ai clienti idonei di utilizzare determinati agenti senza costi aggiuntivi fino a 10.000 crediti AI. L’obiettivo è fornire un percorso a basso attrito e basso rischio per sfruttare il valore di questi agenti prima che i clienti prendano una decisione commerciale.
+
+### Quali agenti sono inclusi in questa prova?
+
+Per un elenco completo degli agenti inclusi nella prova, leggi la guida su [IA per agenti in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/agentic-ai).
+
+### Chi può partecipare a questo processo?
+
+La versione di prova viene implementata gradualmente per alcuni clienti Adobe Experience Cloud idonei, in modo che Adobe possa fornire il supporto appropriato. Se ti interessa partecipare, contatta il team del tuo account Adobe, che potrà verificare il tuo stato e discutere le opzioni di accesso.
+
+### Quanti crediti AI ottengo e cosa succede quando questi crediti AI vengono utilizzati?
+
+I clienti idonei ricevono fino a 10.000 crediti di intelligenza artificiale per la prova, che vengono utilizzati come agenti che eseguono processi. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+
+### Questo costa qualcosa?
+
+La versione di prova non richiede alcun acquisto aggiuntivo. Non esiste una conversione automatica in offerta a pagamento. Se decidi di continuare a utilizzare gli agenti oltre la versione di prova, il team dell’account Adobe ti collaborerà per passare a un’offerta a pagamento.
+
+### Chi può vedere l’utilizzo e come?
+
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+
+Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
+
+### Cosa succede dopo la fine del processo?
+
+La versione di valutazione termina quando utilizzi l’adesione una tantum iniziale fino a 10.000 crediti AI o una volta ottenuta la licenza di crediti AI aggiuntivi.
+
+Al termine della versione di valutazione, puoi scegliere di:
+
+- Non procedere in avanti
+   - In questo modo la versione di prova scadrà
+   - I prodotti Adobe esistenti continuano a funzionare come prima, senza penali per la mancata conversione della versione di prova
+- Avanti con l&#39;utilizzo continuo dell&#39;agente
+   - Puoi lavorare con il team del tuo account Adobe per passare a un’offerta a pagamento.
+
+Non esiste un commutatore nascosto automatico per convertire i clienti la cui versione di valutazione è terminata a pagamento.
 
 ## Risorse aggiuntive
 
