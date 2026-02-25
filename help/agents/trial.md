@@ -1,9 +1,9 @@
 ---
 title: Versione di prova per agenti Adobe Experience Platform con associazione all'utilizzo
 description: Scopri la versione di prova gratuita per gli agenti Adobe Experience Platform.
-source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
+source-git-commit: 0da2be4ca1026abb04a230eb5d1eb2c8c776b0a6
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 >
 >Alcuni clienti Experience Cloud idonei possono avere accesso alla versione di prova degli agenti Adobe Experience Platform per il limite dell’utilizzo, in modo da sperimentare il valore degli agenti nel proprio ambiente prima di assumere l’impegno di concedere la licenza.
 
+Il video seguente ha lo scopo di illustrare la versione di prova di Adobe Experience Platform Agent associata all’utilizzo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+
 ## Cosa è disponibile con la versione di prova
 
 - **Assistente AI**: un&#39;interfaccia conversazionale a pagina intera e coinvolgente basata su Agent Orchestrator che funziona tra prodotti diversi, consentendo ai professionisti che utilizzano prodotti Experience Cloud abilitati di sfruttare le funzionalità GenAI e Agentic AI. Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
@@ -23,7 +27,7 @@ ht-degree: 1%
 
 Adobe determinerà a sua esclusiva discrezione la tua idoneità alla sperimentazione. I clienti che hanno o avevano in precedenza una licenza di Adobe Experience Platform Agent Orchestrator Promotion o una licenza di Experience Platform Agents AI Credits non sono idonei per la versione di prova.
 
-I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -69,7 +73,7 @@ La versione di prova non richiede alcun acquisto aggiuntivo. Non esiste una conv
 
 ### Chi può vedere l’utilizzo e come?
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
 
