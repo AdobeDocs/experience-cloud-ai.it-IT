@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Il video seguente ha lo scopo di illustrare la versione di prova di Adobe Experience Platform Agent associata all’utilizzo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480236?captions=ita&learn=on)
 
 ## Cosa è disponibile con la versione di prova
 
