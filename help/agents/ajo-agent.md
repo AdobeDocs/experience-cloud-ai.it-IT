@@ -4,10 +4,10 @@ description: Guida completa a Journey Agent, che consente agli utenti di creare,
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 18%
+source-wordcount: '2608'
+ht-degree: 14%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 18%
 
 Journey Agent consente agli utenti di Journey Optimizer di creare, analizzare e ottimizzare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con l’agente Journey, i professionisti possono generare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o pubblico, analizzare le prestazioni e i tassi di abbandono e identificare i percorsi che funzionano meglio per replicarli in future campagne. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
-Journey Agent si compone di due competenze principali:
-- **Agente di creazione Percorso**: genera e configura percorsi di marketing tramite prompt in linguaggio naturale
-- **Percorso Analizza agente**: analizza i percorsi, rileva i problemi, scopri informazioni e ottimizza il coinvolgimento dei clienti
+Journey Agent è costituito da tre attività principali:
 
-## Percorsi Create Agent: panoramica delle abilità e guida utente
+- **Creazione Percorso**: crea e configura percorsi di marketing tramite messaggi in linguaggio naturale
+- **Creazione di contenuti per il canale**: genera, modifica e gestisci contenuti specifici per il canale (e-mail, push, SMS) per percorsi che utilizzano la generazione di contenuti basati sull&#39;intelligenza artificiale
+- **Analisi dei Percorsi**: analisi dei percorsi, rilevamento dei problemi, individuazione di informazioni e ottimizzazione del coinvolgimento dei clienti
+
+## Creazione percorso: casi d’uso, competenze per gli agenti e guida utente
 
 ## Panoramica
 
-L’agente di creazione percorsi consente agli utenti di Journey Optimizer di creare e configurare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con l’agente di creazione del Percorso, i professionisti possono creare rapidamente i percorsi descrivendo i loro requisiti nei prompt conversazionali. L’agente semplifica la creazione del percorso, consentendo agli addetti al marketing di concentrarsi sulla strategia anziché sulla configurazione tecnica.
+La creazione di percorsi consente agli utenti di Journey Optimizer di creare e configurare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con la creazione di Percorsi, i professionisti possono creare rapidamente percorsi descrivendo i loro requisiti nei prompt conversazionali. L’agente semplifica la creazione del percorso, consentendo ai marketer di concentrarsi sulla strategia anziché sulla configurazione tecnica.
 
 >[!AVAILABILITY]
 >
->L’agente di creazione Percorso è disponibile per tutti i clienti che hanno accesso all’Assistente IA. Tuttavia, per utilizzare completamente le funzioni di agente di creazione del Percorso, sono necessarie le seguenti autorizzazioni:
+>La funzione Creazione percorso è disponibile per tutti i clienti che hanno accesso all’Assistente IA. Tuttavia, per utilizzare completamente le funzioni di creazione dei Percorsi sono necessarie le seguenti autorizzazioni:
 >
 >**Gestisci Percorsi**: questa autorizzazione consente di creare nuovi percorsi direttamente nell&#39;Assistente IA.
 >
@@ -42,9 +44,9 @@ L’agente di creazione percorsi consente agli utenti di Journey Optimizer di cr
 
 ## Casi d’uso
 
-### Casi d’uso principali per l’agente di creazione del Percorso
+### Casi d’uso principali per la creazione di Percorsi
 
-Il Percorso Crea agente offre funzionalità che possono essere utilizzate per accelerare l’esecuzione del marketing:
+Percorso Creazione di offerte funzionalità che possono essere utilizzate per accelerare l’esecuzione del marketing:
 
 1. **Creazione percorso attivata da eventi**
 
@@ -78,7 +80,7 @@ Per ciascuno di questi casi d’uso, l’agente traduce i requisiti di linguaggi
 
 ### **Nell&#39;ambito**
 
-Le seguenti funzionalità sono supportate dall&#39;agente di creazione Percorsi:
+Le seguenti funzionalità sono supportate da Creazione Percorso:
 
 - **Creazione di un percorso in linguaggio naturale**: consente agli utenti di descrivere il flusso di percorso in linguaggio di conversazione.
 - **percorsi basati su eventi e su pubblico**: supporta sia i tipi di percorso basati su attivatori che quelli pianificati, nonché la qualificazione di eventi di business e pubblico.
@@ -95,7 +97,6 @@ Attualmente, le seguenti funzonalità non sono supportate:
 - **Orchestrazione tra percorsi**
 - **Configurazione test A/B**
 - **Trasformazioni dati complesse**
-- **Creazione del contenuto del messaggio**
 
 ## Prompt di esempio
 
@@ -141,7 +142,7 @@ L&#39;agente fornirà indicazioni ed esempi per aiutarti a definire i tuoi requi
 
 ### Best practice per la richiesta di informazioni
 
-Per massimizzare l’efficacia di Percorsi Create Agent, segui queste best practice:
+Per massimizzare l’efficacia della creazione di Percorsi, segui queste best practice:
 
 1. **Specifica**: fornisci dettagli chiari sugli obiettivi del percorso, sul pubblico di destinazione e sulle azioni desiderate. Includi informazioni su canali, tempi e condizioni.
 1. **Specificare l&#39;intervallo**: indicare chiaramente i periodi di attesa tra le azioni e l&#39;inizio del percorso.
@@ -159,13 +160,95 @@ Quando un utente accede alla posizione del mio archivio, invia un messaggio di b
 - **Pianifica contenuto messaggio**: definire la strategia di messaggistica prima di creare il percorso.
 - **Esperienza cliente**: progettare flussi di percorso che rispettino le preferenze del cliente ed evitino comunicazioni eccessive.
 
-## Agente analisi percorso: panoramica abilità e guida utente
+## Creazione di contenuti per il canale: casi d’uso, competenze e guida utente
+
+>[!AVAILABILITY]
+>
+>Questa funzione è disponibile per tutti i clienti con disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+
+## Panoramica
+
+Creazione di contenuti per il canale consente agli utenti di Journey Optimizer di generare, modificare e gestire contenuti specifici per il canale per i percorsi utilizzando la generazione di contenuti basata sull’intelligenza artificiale.
+
+## Casi d’uso
+
+### Casi d’uso principali per la creazione di contenuti canale
+
+1. **Generazione di contenuti specifici per il canale**: genera contenuti per e-mail, notifiche push, SMS e altri canali utilizzando prompt in linguaggio naturale.
+
+1. **Creazione di contenuti basati su modelli**: sfoglia e seleziona tra i modelli disponibili con funzionalità di anteprima.
+
+1. **Gestione dei contenuti multicanale**: genera e gestisci contenuti per più canali all&#39;interno dello stesso flusso di lavoro del percorso.
+
+1. **Modifica del contenuto nel contesto**: apri il contenuto generato in Content Designer per la modifica e l&#39;ottimizzazione.
+
+1. **Ottimizzazione e iterazione del contenuto**: rigenera il contenuto con toni o stili diversi utilizzando l&#39;azione Rigenera.
+
+1. **Integrazione area di lavoro Percorsi**: selezionare i percorsi dall&#39;inventario e visualizzare i canali associati.
+
+## Competenze nel campo di applicazione e fuori campo di applicazione
+
+### **Nell&#39;ambito**
+
+Le seguenti funzionalità sono supportate da Creazione di contenuti canale:
+
+- **Generazione di contenuti basati sull&#39;intelligenza artificiale**: genera contenuti per e-mail, push, SMS e altri canali utilizzando prompt in linguaggio naturale.
+- **Gestione modelli**: sfoglia e seleziona tra i modelli disponibili con funzionalità di anteprima.
+- **Modifica nel contesto**: apri i contenuti generati in Content Designer per modificarli e perfezionarli.
+- **Rigenerazione contenuto**: rigenera contenuto con toni, stili o messaggi diversi utilizzando l&#39;azione Rigenera.
+- **Supporto multicanale**: genera e gestisci contenuti per più canali all&#39;interno dello stesso flusso di lavoro del percorso.
+- **Accesso inventario Percorsi**: seleziona i percorsi dall&#39;inventario e visualizza i canali associati.
+
+### **Fuori ambito**
+
+Attualmente, le seguenti funzonalità non sono supportate:
+
+- **Allineamento marchio e controlli di qualità dei contenuti**
+- **Inserire nodi di contenuto direttamente nell&#39;area di lavoro del percorso**
+- **Importazione modello**
+
+## Prompt di esempio
+
+### Generazione di contenuti
+
+&quot;Genera contenuti e-mail per il mio percorso di benvenuto. Crea un’e-mail di benvenuto per i nuovi clienti con un tono amichevole e includi un’offerta di sconto del 10%.&quot;
+
+&quot;Aggiungi contenuti per e-mail canale per il mio percorso di benvenuto.&quot;
+
+&quot;Genera una notifica push per il percorso di visita del negozio. Crea un messaggio di benvenuto che incoraggi i clienti a effettuare il check-in e a ricevere un’offerta speciale.&quot;
+
+&quot;Genera contenuti SMS per il mio percorso attivato da eventi. Crea un breve messaggio per informare i clienti di una vendita flash con un call-to-action.&quot;
+
+### Selezione modello
+
+&quot;Mostra i modelli e-mail disponibili per il percorso della campagna stagionale&quot;
+
+&quot;Seleziona un modello per la mia e-mail con una progettazione moderna e pulita.&quot;
+
+### Modifica e perfezionamento dei contenuti
+
+&quot;Apri il contenuto dell’e-mail in Content Designer per personalizzare la progettazione.&quot;
+
+&quot;Rigenerare il contenuto delle notifiche push con un tono più informale.&quot;
+
+&quot;Aggiorna il contenuto dell’e-mail per includere un codice promozionale.&quot;
+
+## Best practice
+
+### Best practice per la richiesta di informazioni
+
+1. **Specifica**: fornisci dettagli chiari sul tipo di contenuto, il tono, il pubblico di destinazione e i messaggi chiave.
+1. **Specifica canale**: indica chiaramente per quale canale stai creando contenuti (e-mail, push, SMS).
+1. **Definisci tono**: specifica il tono desiderato (amichevole, formale, casuale, urgente).
+1. **Itera e perfeziona**: utilizza l&#39;azione di rigenerazione per perfezionare il contenuto fino a quando non soddisfa i tuoi requisiti.
+
+## Analisi percorso: casi d’uso, competenze e guida utente
 
 ## Panoramica
 
 Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. I professionisti saranno in grado di effettuare decisioni guidate dai dati, migliorare il coinvolgimento cliente e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [
 
 ## Casi d’uso
 
-### Principali casi d’uso dell’analisi dell’agente Journey
+### Casi d’uso principali per l’analisi del Percorso
 
-La capacità di analisi dell’agente Journey offre una gamma di funzionalità che possono essere sfruttate per ottimizzare le attività di marketing:
+Analisi percorso offre una serie di funzionalità che possono essere utilizzate per ottimizzare le attività di marketing:
 
 1. **Analisi fall-out del percorso**
 
@@ -215,7 +298,7 @@ Per ciascuna di queste analisi, l&#39;agente non solo rileva i problemi, ma forn
 
 ### **Rilevanti per l’ambito**
 
-L’analisi dell’agente Journey supporta le seguenti funzionalità:
+Le seguenti funzionalità sono supportate da Analisi Percorso:
 
 - **Query reattive**: consentono agli utenti di porre domande specifiche riguardanti le prestazioni del percorso, l’utilizzo del pubblico e i conflitti di pianificazione.
 - **Integrazione con altri agenti**: collabora con Agente Audience e Agente Data Insights per analisi più approfondite.
@@ -295,7 +378,7 @@ Utilizza questi prompt per analizzare possibili conflitti tra percorsi, incluse 
 
 ### Prompt per le best practice
 
-Per ottimizzare l’efficacia dell’analisi dell’agente Journey, segui queste best practice:
+Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 
 1. **Richieste specifiche**: utilizza prompt chiari e concisi per ottenere insight mirati. Ad esempio, invece di chiedere &quot;Quali sono i miei percorsi?&quot;, specificare &quot;Elenca tutti i percorsi creati nell&#39;ultimo mese&quot;.
 1. **Combina gli insights**: integra gli insight di Agente Audience e Agente Data Insights per una vista olistica delle prestazioni del percorso.
