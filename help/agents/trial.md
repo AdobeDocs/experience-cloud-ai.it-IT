@@ -27,7 +27,7 @@ Il video seguente ha lo scopo di illustrare la versione di prova degli agenti Ad
 
 Adobe determinerà a sua esclusiva discrezione la tua idoneità alla sperimentazione. I clienti che hanno o avevano in precedenza una licenza di Adobe Experience Platform Agent Orchestrator Promotion o una licenza di Experience Platform Agents AI Credits non sono idonei per la versione di prova.
 
-I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ La versione di prova viene implementata gradualmente per alcuni clienti Adobe Ex
 
 ### Quanti crediti AI ottengo e cosa succede quando questi crediti AI vengono utilizzati?
 
-I clienti idonei ricevono fino a 10.000 crediti di intelligenza artificiale per la prova, che vengono utilizzati come agenti che eseguono processi. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+I clienti idonei ricevono fino a 10.000 crediti di intelligenza artificiale per la prova, che vengono utilizzati come agenti che eseguono processi. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Questo costa qualcosa?
 
