@@ -17,10 +17,10 @@ Leggi questo documento per scoprire le funzionalità incentrate sulla fiducia de
 * Nessun dato personale viene utilizzato oggi da AI Assistant, anche a scopo di formazione.
 * L’Assistente AI non è a conoscenza dei dati del consumatore.
 * Tutti i criteri di [controllo dell&#39;accesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) esistenti verranno rispettati dall&#39;Assistente IA.
-   * Eventuali nuovi criteri di controllo dell’accesso basati su attributi vengono rispecchiati in IA Assistant dopo un massimo di 24 ore&amp;ast;
+   * Eventuali nuovi criteri di controllo dell’accesso basati su attributi vengono rispecchiati in IA Assistant dopo un massimo di 24 ore&ast;
 * L&#39;Assistente AI è una funzione compatibile con HIPAA se utilizzata in combinazione con Adobe Experience Platform Healthcare Shield.
 * È possibile visualizzare un registro delle interazioni precedenti con l’Assistente AI con un criterio di conservazione di 30 giorni.
 * L’Assistente AI si basa sui dati specifici delle sandbox e sulla documentazione pubblica di Adobe quando si rispondono alle richieste degli utenti. I dati non sono condivisi tra sandbox diverse.
 * I prompt forniti all&#39;Assistente IA non vengono condivisi con altri clienti.
 
-&amp;ast; *Questo implica che se vengono aggiunte nuove etichette a campi e oggetti o vengono creati nuovi criteri, l’Assistente AI impiegherà fino a 24 ore per rispettarli. Durante queste 24 ore, gli utenti con accesso limitato di recente possono comunque accedere a tali campi e oggetti.*
+&ast; *Questo implica che se vengono aggiunte nuove etichette a campi e oggetti o vengono creati nuovi criteri, l’Assistente AI impiegherà fino a 24 ore per rispettarli. Durante queste 24 ore, gli utenti con accesso limitato di recente possono comunque accedere a tali campi e oggetti.*
