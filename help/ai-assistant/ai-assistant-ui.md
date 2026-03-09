@@ -1,14 +1,28 @@
 ---
 title: Guida all’interfaccia utente dell’Assistente IA
-description: Scopri come accedere e utilizzare l’Assistente AI nell’interfaccia utente.
-source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
+description: Scopri come accedere all’Assistente IA e utilizzarlo nell’interfaccia utente.
+source-git-commit: 434f438eca130ca76e5303ac7040082daaf46bc8
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 1%
+source-wordcount: '2093'
+ht-degree: 2%
 
 ---
 
 # Assistente IA
+
+>[!IMPORTANT]
+>
+>Questo documento si applica all’Assistente IA (di nuova generazione). Per informazioni sull&#39;Assistente AI (versione precedente), leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) nella documentazione di Adobe Experience Platform.
+
+Per un confronto tra Assistente IA (legacy) e Assistente IA (di nuova generazione), consulta la tabella seguente:
+
+| Area funzionale | Assistente AI (legacy) | Assistente AI (di nuova generazione) |
+| --- | --- | --- |
+| Esperienza utente | L’Assistente AI (legacy) è disponibile solo in un pannello nella barra a destra. | AI Assistant (Next-Gen) è disponibile sia nel pannello della barra a destra che nell’esperienza coinvolgente a schermo intero. |
+| Ambito delle funzionalità | È possibile utilizzare l’Assistente AI (legacy) sia per conoscere il prodotto che per acquisire informazioni operative. | Puoi utilizzare l’Assistente all’intelligenza artificiale (di nuova generazione) per conoscere il prodotto, ottenere informazioni operative, acquisire competenze avanzate in ambito agente ed eseguire attività in più fasi. |
+| Architettura della piattaforma | L’Assistente IA (legacy) non è basato sullo stack di Agent Orchestrator. | L&#39;Assistente di intelligenza artificiale (di nuova generazione) è basato su [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), che abilita l&#39;estensibilità e il coordinamento avanzato tra le funzionalità. |
+| Applicazione coperta | L’Assistente IA (legacy) è un’implementazione specifica per l’applicazione. | È possibile utilizzare AI Assistant (di nuova generazione) per un’esperienza di AI Assistant unificata in tutte le applicazioni Adobe Experience Cloud. |
+| Modello di accesso e autorizzazione | Modello di accesso con ambito di applicazione allineato ai limiti dei singoli prodotti. | Tutti gli utenti possono accedere ad AI Assistant (Next-Gen) e agli agenti Experience Platform associati. **Nota**: <ul><li>**Adobe Experience Manager**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale (di nuova generazione) tramite [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: l&#39;amministratore deve concedere l&#39;autorizzazione per accedere all&#39;Assistente di intelligenza artificiale tramite [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Questo consente di porre domande sulla conoscenza del prodotto e sulle informazioni sui dati. |
 
 AI Assistant è uno strumento intelligente di intelligenza artificiale di tipo conversazionale che consente di aumentare la produttività e ridefinire il lavoro nelle applicazioni basate su Adobe Experience Platform. È possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
 
