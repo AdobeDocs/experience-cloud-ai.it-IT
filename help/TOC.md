@@ -5,10 +5,10 @@ user-guide-description: Scopri come utilizzare l’Assistente IA per accelerare 
 description: Informazioni sull’Assistente IA in Experience Cloud. Migliora la tua conoscenza del prodotto e acquisisci insight operativi utilizzando l’IA in Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 5d67a6ee46f32a948c02633bea17aa87f0174e99
+source-git-commit: d12c6cee2f369e7c69360cedc89d7bb43de2d32e
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 67%
+source-wordcount: '87'
+ht-degree: 63%
 
 ---
 
@@ -29,4 +29,6 @@ ht-degree: 67%
    - [Journey Agent](./agents/ajo-agent.md)
    - [Agente di supporto prodotto](./agents/product-support.md)
    - [Versione di prova agenti](./agents/trial.md)
+   - Data Engineering {#data-engineering}
+      - [Data Engineering Agent](./agents/data-engineering/overview.md)
 
