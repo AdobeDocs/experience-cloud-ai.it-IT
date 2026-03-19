@@ -1,18 +1,14 @@
 ---
 title: Agente di supporto prodotto
 description: Scopri come utilizzare l’agente di supporto del prodotto in AI Assistant per semplificare la risoluzione dei problemi e il processo di archiviazione dei ticket di assistenza clienti.
-source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
+source-git-commit: 57e123e7fed24c26403adbc637814ca6a9ccf68e
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
 # Agente di supporto prodotto
-
->[!AVAILABILITY]
->
->L’agente di supporto del prodotto è disponibile per i clienti idonei per un periodo di tempo limitato. L’accesso all’agente di supporto del prodotto terminerà il 28 febbraio 2026. Per continuare a utilizzare l’agente di supporto del prodotto oltre questa data senza interruzioni, contatta il rappresentante del tuo account Adobe per ulteriori informazioni sulle licenze di Adobe Experience Platform Agent Orchestrator.
 
 L’agente di supporto del prodotto è una funzionalità self-service di debug e risoluzione dei problemi di AI Assistant che puoi utilizzare per le funzioni e le applicazioni di Adobe Experience Platform.
 
@@ -61,5 +57,5 @@ Dopo aver completato questi passaggi, tutti gli amministratori del supporto nell
 
 Per ulteriori informazioni, guarda il video seguente e scopri come utilizzare l’agente di supporto del prodotto per risolvere facilmente i problemi senza uscire dai flussi di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443191?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
