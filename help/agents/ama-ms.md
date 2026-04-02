@@ -125,7 +125,7 @@ La versione iniziale è disponibile in lingua inglese. Le funzionalità sono lim
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent richiama diversi agenti e processi di Adobe a seconda dei prompt inviati. Questo agente Adobe sottostante che viene richiamato utilizza crediti IA come indicato nella pagina [Processi agente Adobe Experience Platform e consumo crediti AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+>Adobe Marketing Agent richiama diversi agenti e processi di Adobe a seconda dei prompt inviati. Questo agente Adobe sottostante che viene richiamato utilizza crediti IA come indicato nella pagina [Processi agente Adobe Experience Platform e consumo crediti AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Appendice
 
