@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Scopri come utilizzare Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,10 @@ L’agente deve restituire informazioni di sola lettura e non modifica i dati de
 **Lingue e ambito supportati**
 
 La versione iniziale è disponibile in lingua inglese. Le funzionalità sono limitate alle informazioni di sola lettura; l’agente non crea o aggiorna risorse o configurazioni di marketing.
+
+>[!IMPORTANT]
+>
+>Adobe Marketing Agent richiama diversi agenti e processi di Adobe a seconda dei prompt inviati. Questo agente Adobe sottostante che viene richiamato utilizza crediti IA come indicato nella pagina [Processi agente Adobe Experience Platform e consumo crediti AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Appendice
 
