@@ -2,17 +2,16 @@
 title: Data Engineering Agent
 description: Scopri come utilizzare Data Engineering Agent.
 hide: true
-hidefromtoc: true
-source-git-commit: 12c61f88b358fc8c357ec4fa373493d6b70d5a06
+source-git-commit: 707fc108185d37c122a297e3ee1ebd06b41d053c
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
 # Data Engineering Agent
 
-&lt;!— QUESTA È UNA BOZZA —>
+&lt;!—!— QUESTA È UNA BOZZA - NOTA CHE hidefromtoc è ora controllato nel file TOC.md, non nell&#39;articolo. --->
 
 Data Engineering Agent è un copilota basato su intelligenza artificiale basato su Agent Orchestrator per i team di dati in Adobe Experience Platform. L’agente è progettato per gestire il pesante sollevamento di dati nel ciclo di vita end-to-end: modellazione dati, onboarding, preparazione dati SQL, governance e gestione del ciclo di vita. Grazie a Data Engineering Agent, ingegneri e architetti possono muoversi più velocemente con una qualità dei dati più elevata e un minore lavoro manuale.
 
