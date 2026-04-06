@@ -23,4 +23,4 @@ Leggi questo documento per scoprire le funzionalità incentrate sulla fiducia de
 * L’Assistente AI si basa sui dati specifici delle sandbox e sulla documentazione pubblica di Adobe quando si rispondono alle richieste degli utenti. I dati non sono condivisi tra sandbox diverse.
 * I prompt forniti all&#39;Assistente IA non vengono condivisi con altri clienti.
 
-&amp;ast; *Ciò implica che se vengono aggiunte nuove etichette a campi e oggetti o vengono creati nuovi criteri, l&#39;Assistente IA impiegherà fino a 24 ore per rispettarli. Durante queste 24 ore, gli utenti con accesso limitato di recente possono comunque accedere a tali campi e oggetti.*
+&ast; *Ciò implica che se vengono aggiunte nuove etichette a campi e oggetti o vengono creati nuovi criteri, l&#39;Assistente IA impiegherà fino a 24 ore per rispettarli. Durante queste 24 ore, gli utenti con accesso limitato di recente possono comunque accedere a tali campi e oggetti.*
