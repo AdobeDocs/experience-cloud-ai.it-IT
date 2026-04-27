@@ -1,54 +1,68 @@
 ---
 title: IA nelle applicazioni Experience Cloud
 description: Scopri come le applicazioni Experience Cloud utilizzano l’IA generativa (GenAI), l’Assistente IA e l’IA agentica.
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 17%
 
 ---
 
 # IA in Experience Cloud
 
-Ti diamo il benvenuto nella guida completa per le funzionalità di intelligenza artificiale nelle applicazioni Adobe Experience Cloud. Questa documentazione illustra come gli agenti AI, AI Assistant e Adobe generativi vengono integrati nei flussi di lavoro di Experience Cloud per accelerare la produttività e migliorare il processo decisionale.
+Welcome to the comprehensive guide for AI capabilities across Adobe Experience Cloud applications. This documentation covers how generative AI, AI Assistant, and Adobe agents are integrated into your Experience Cloud workflows to accelerate productivity and enhance decision-making.
 
-## Elementi inclusi in questa guida
+## What&#39;s included in this guide
 
 ### Assistente IA
 
-[L&#39;Assistente AI](./ai-assistant/ai-assistant-ui.md) è uno strumento intelligente di IA conversazionale e generativo che aumenterà la produttività e ridefinirà il lavoro nelle applicazioni basate su Adobe Experience Platform. Gli utenti possono acquisire conoscenze sui prodotti, risolvere i problemi e ottenere informazioni operative attraverso messaggi in linguaggio naturale. È inoltre possibile utilizzare l’Assistente IA per accedere agli agenti Adobe Experience Platform e ad altre funzionalità di intelligenza artificiale.
+[AI Assistant](./ai-assistant/ai-assistant-ui.md) is an intelligent conversational, generative AI tool that will boost productivity and redefine work in Adobe Experience Platform-based Applications. Users can gain product knowledge, troubleshoot problems, and find operational insights through natural language prompts. You can also use AI Assistant to access Adobe Experience Platform Agents and other AI capabilities.
 
-**Funzioni chiave:**
+**Key features:**
 
-- **Interfaccia conversazionale**: puoi scegliere tra un&#39;interfaccia a schermo intero e un&#39;interfaccia di visualizzazione della barra per adattarsi alle preferenze del flusso di lavoro.
-- **Prompt di individuazione**: l&#39;Assistente IA fornisce prompt preconfigurati organizzati per categorie quali Apprendi, Analizza e Ottimizza.
-- **Impostazione contesto**: è possibile configurare le impostazioni di applicazione, sandbox e visualizzazione dati per ricevere risposte personalizzate alle proprie esigenze.
-- **Visualizzazione dati**: lo strumento fornisce grafici e grafici interattivi che consentono di ottenere informazioni dai dati.
-- **Verifica risposta**: tutte le risposte includono citazioni di origine, spiegazioni del ragionamento dell&#39;intelligenza artificiale e meccanismi per fornire feedback.
+- **Conversational Interface**: You can choose between a full-screen and a rail view interface to suit your workflow preferences.
+- **Discovery Prompts**: AI Assistant provides pre-configured prompts that are organized by categories such as Learn, Analyze, and Optimize.
+- **Context Setting**: You are able to configure the application, sandbox, and dataview settings to receive responses that are tailored to your needs.
+- **Data Visualization**: The tool delivers interactive charts and graphs, enabling you to gain insights from your data.
+- **Response Verification**: All responses include source citations, explanations of AI reasoning, and mechanisms for providing feedback.
 
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) è il nuovo livello agente in Adobe Experience Platform. Progettato per sfruttare la ricca disponibilità di dati e le conoscenze della clientela della piattaforma, Agent Orchestrator di Experience Platform potenzia le informazioni e il ragionamento alla base degli Agenti esperti di Adobe Experience Platform appositamente creati, consentendo loro di eseguire complesse attività decisionali e di risoluzione dei problemi in modo rapido e su larga scala, sempre con intervento umano. Quando poni domande o richiedi assistenza tramite il linguaggio naturale in un’interfaccia conversazionale come l’Assistente IA, Agent Orchestrator richiama automaticamente ad agenti specializzati per ottenere le risposte giuste. Agent Orchestrator ricorda la cronologia delle conversazioni consentendoti di fare riferimento alle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina gli insight provenienti da più agenti per fornire risposte chiare e unificate.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) is the new agentic layer in Adobe Experience Platform. Progettato per sfruttare la ricca disponibilità di dati e le conoscenze della clientela della piattaforma, Agent Orchestrator di Experience Platform potenzia le informazioni e il ragionamento alla base degli Agenti esperti di Adobe Experience Platform appositamente creati, consentendo loro di eseguire complesse attività decisionali e di risoluzione dei problemi in modo rapido e su larga scala, sempre con intervento umano. Quando poni domande o richiedi assistenza tramite il linguaggio naturale in un’interfaccia conversazionale come l’Assistente IA, Agent Orchestrator richiama automaticamente ad agenti specializzati per ottenere le risposte giuste. Agent Orchestrator ricorda la cronologia delle conversazioni consentendoti di fare riferimento alle domande precedenti in modo naturale, senza dover ripetere il contesto, e combina gli insight provenienti da più agenti per fornire risposte chiare e unificate.
 
-**Componenti core:**
+**Core components:**
 
-- **Motore di ragionamento**: crea piani dettagliati e regola gli approcci in base alle esigenze
-- **Agenti specializzati**: agenti appositamente creati per attività e domini specifici
-- **Knowledge Base**: accesso sicuro alle informazioni e alla documentazione di business intelligence
+- **Reasoning Engine**: Creates step-by-step plans and adjusts approaches as needed
+- **Specialized Agents**: Purpose-built agents for specific tasks and domains
+- **Knowledge Base**: Secure access to business intelligence and documentation
 
-### Agenti specializzati
+### Specialized Agents
 
 #### Agente Audience
 
-Audience Agent fornisce informazioni approfondite sui tipi di pubblico, tra cui:
+The Audience Agent provides insights about audiences including:
 
-- Rilevamento di cambiamenti significativi nelle dimensioni del pubblico.
-- Identificazione di tipi di pubblico duplicati.
-- Esplorazione dell’inventario del pubblico.
-- Recupero dimensioni pubblico.
+- Detecting significant audience size changes.
+- Identifying duplicate audiences.
+- Exploring audience inventory.
+- Retrieving audience sizes.
 
-Per ulteriori informazioni, consulta la [documentazione di Audience Agent](./agents/audience.md).
+Read the [Audience Agent documentation](./agents/audience.md) for more information.
 
 #### Data Insights Agent
 

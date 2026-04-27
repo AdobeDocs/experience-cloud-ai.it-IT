@@ -1,9 +1,19 @@
 ---
 title: Guida all’interfaccia utente dell’Assistente IA
 description: Scopri come accedere all’Assistente IA e utilizzarlo nell’interfaccia utente.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2162
 ht-degree: 3%
 
 ---
@@ -88,49 +98,49 @@ Questa sezione fornisce una panoramica delle funzioni principali e delle opzioni
 
 ### Richieste di individuazione {#discovery-prompts}
 
-È possibile utilizzare la funzione di individuazione dell&#39;Assistente IA per visualizzare un elenco dei soggetti generali, raggruppati in entità, supportati dall&#39;Assistente AI. I prompt di individuazione variano a seconda del punto iniziale.
+You can use AI Assistant&#39;s discovery feature to view a list of the general subjects, grouped into entities, that AI Assistant supports. Discovery prompts are different depending on your starting point.
 
 >[!BEGINTABS]
 
->[!TAB Usa individuazione dalla visualizzazione a schermo intero]
+>[!TAB Use discovery from the full screen view]
 
-Dalla visualizzazione a schermo intero, i prompt di individuazione sono raggruppati in tre categorie: **[!UICONTROL Scopri]**, **[!UICONTROL Analizza]** e **[!UICONTROL Ottimizza]**.
+From the full screen view, discovery prompts are grouped into three categories: **[!UICONTROL Learn]**, **[!UICONTROL Analyze]**, and **[!UICONTROL Optimize]**.
 
-Per utilizzare le richieste di individuazione per migliorare la conoscenza del prodotto, selezionare **[!UICONTROL Scopri]**, quindi selezionare un prompt dalla finestra a discesa visualizzata.
+To use discovery prompts to advance product knowledge, select **[!UICONTROL Learn]** and then select a prompt from the dropdown window that appears.
 
-![Selezione della richiesta di individuazione dalla visualizzazione a schermo intero.](./images/ai-assistant/inputs/discover.png)
+![The discovery prompt selection from the full screen view.](./images/ai-assistant/inputs/discover.png)
 
->[!TAB Utilizza l&#39;individuazione dalla visualizzazione della barra]
+>[!TAB Use discover from the rail view]
 
-Selezionare **[!UICONTROL Individuazione]** dalla visualizzazione della barra per accedere a un elenco completo di richieste di individuazione che è possibile utilizzare per iniziare e popolare la chat con l&#39;Assistente IA.
+Select **[!UICONTROL Discovery]** from the rail view to access an extensive list of discovery prompts that you can use to get started and populate your chat with AI Assistant.
 
-![Pannello di individuazione dalla visualizzazione della barra.](./images/ai-assistant/inputs/discover-rail.png)
+![The discovery panel from the rail view.](./images/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
-Selezionare un prompt per compilare la casella di input. Da qui puoi modificare la richiesta in base al tuo caso d’uso specifico. Al termine dell’operazione, seleziona l’icona di invio a destra per inviare la query.
+Select a prompt to populate the input box. From here, you can edit the prompt to fit your particular use case. When ready, select the send icon on the right to submit your query.
 
-![Il prompt di individuazione nella casella di input.](./images/ai-assistant/inputs/question-input.png)
+![The discover prompt in the input box.](./images/ai-assistant/inputs/question-input.png)
 
-## Interazione con le risposte
+## Interacting with responses
 
-### Verifica del processo di ragionamento {#reasoning}
+### Check for reasoning process {#reasoning}
 
-L&#39;Assistente IA esegue quindi una query sulla knowledge base e calcola una risposta. Dopo alcuni istanti, l’Assistente AI restituisce una risposta, incluse opzioni per approfondire il processo di ragionamento, i suggerimenti correlati, le origini delle informazioni e gli strumenti di feedback.
+AI Assistant then queries its knowledge base and computes an answer. After a few moments, AI Assistant returns an answer, including options to dive deeper into its reasoning process, related suggestions, information sources, and feedback tools.
 
-Per comprendere meglio il processo di ragionamento sottostante, selezionare **[!UICONTROL Ragionamento completato]**.
+To better understand the underlying reasoning process, select **[!UICONTROL Reasoning complete]**.
 
-![Risposta dell&#39;Assistente di IA.](./images/ai-assistant/inputs/answer.png)
+![The AI Assistant response.](./images/ai-assistant/inputs/answer.png)
 
-La finestra *[!UICONTROL Motivazione completata]* si espande per visualizzare un riepilogo della richiesta e dettagli sulla modalità di creazione della risposta.
+The *[!UICONTROL Reasoning complete]* window expands to display a summary of your request and details on how the response was crafted.
 
-![Pannello di ragionamento espanso in una risposta dell&#39;Assistente di intelligenza artificiale.](./images/ai-assistant/inputs/reasoning-complete.png)
+![The expanded reasoning panel in an AI Assistant response.](./images/ai-assistant/inputs/reasoning-complete.png)
 
-### Usa suggerimenti correlati
+### Use related suggestions
 
-Quindi, passa alla parte inferiore della risposta e seleziona **[!UICONTROL Suggerimenti correlati]** per ricevere un elenco di richieste relative alla query iniziale. È possibile utilizzare queste richieste per continuare ulteriormente la conversazione con l&#39;Assistente AI.
+Next, navigate down to the bottom of the response and select **[!UICONTROL Related suggestions]** to receive a list of prompts relating to your initial query. You can use these prompts to further continue your conversation with AI Assistant.
 
-![Finestra dei suggerimenti correlati nell&#39;Assistente IA.](./images/ai-assistant/inputs/related-suggestions.png)
+![The related suggestions window in AI Assistant.](./images/ai-assistant/inputs/related-suggestions.png)
 
 ### Visualizza origini
 
