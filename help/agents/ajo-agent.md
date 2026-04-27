@@ -4,13 +4,18 @@ description: Guida completa a Journey Agent, che consente agli utenti di creare,
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
+TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: 2655
 ht-degree: 14%
 
 ---
-
 
 # Journey Agent: Panoramica e guida utente
 
@@ -52,75 +57,75 @@ Percorso Creazione di offerte funzionalità che possono essere utilizzate per ac
 
    - Creazione di percorsi che si attivano in base a eventi cliente specifici.
    - Progetta risposte automatizzate alle azioni dei clienti in tempo reale.
-   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Creazione di percorsi con targeting di pubblico**
+1. **Audience-targeted journey creation**
 
-   - Crea percorsi rivolti a segmenti di pubblico specifici.
-   - Progettazione di sequenze di comunicazione in più fasi con tempistiche strategiche.
+   - Build journeys targeting specific audience segments.
+   - Design multi-step communication sequences with strategic timing.
 
-1. **Creazione percorso attivata da un evento business**
+1. **Business-event triggered journey creation**
 
-   - Creazione di percorsi che si attivano in base a un particolare evento di business e si rivolgono a un pubblico specifico (ad esempio, il prodotto torna in magazzino o cambia il punteggio di gioco)
-   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
+   - Create journeys that activate based on a particular business event and target a specified audience (e.g. product back in stock or game score change)
+   - Build personalized communication flows based on customer behavior.
 
-1. **Creazione del percorso di qualificazione del pubblico**
+1. **Audience qualification journey creation**
 
-   - Crea percorsi che si attivano quando i profili entrano o escono da una definizione di segmento di pubblico.
-   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
+   - Create journeys that activate as profiles enter or exit an audience segment definition.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Flussi percorso condizionale**
+1. **Conditional journey flows**
 
-   - Crea rami decisionali in base agli attributi del cliente.
-   - Progetta percorsi suddivisi in base alle preferenze del cliente.
+   - Create decision branches based on customer attributes.
+   - Design split paths that adapt to customer preferences.
 
-Per ciascuno di questi casi d’uso, l’agente traduce i requisiti di linguaggio naturale in configurazioni di percorso strutturate.
+For each of these use cases, the agent translates natural language requirements into structured journey configurations.
 
-## Competenze nel campo di applicazione e fuori campo di applicazione
+## In scope and out of scope skills
 
-### **Nell&#39;ambito**
+### **In scope**
 
-Le seguenti funzionalità sono supportate da Creazione Percorso:
+The following capabilities are supported by Journey Create:
 
-- **Creazione di un percorso in linguaggio naturale**: consente agli utenti di descrivere il flusso di percorso in linguaggio di conversazione.
-- **percorsi basati su eventi e su pubblico**: supporta sia i tipi di percorso basati su attivatori che quelli pianificati, nonché la qualificazione di eventi di business e pubblico.
-- **Logica condizionale**: gestisce le suddivisioni e le diramazioni delle decisioni in base agli attributi del cliente.
-- **Messaggistica multicanale**: supporta notifiche push, e-mail e canali SMS.
-- **Pianificazione Percorsi**: configura le date di inizio e gli orari per i percorsi pianificati.
+- **Natural language journey creation**: Allows users to describe journey flow in conversational language.
+- **Event-based and audience-based journeys**: Supports both trigger-based and scheduled journey types, also business event and audience qualification.
+- **Conditional logic**: Handles decision splits and branching based on customer attributes.
+- **Multi-channel messaging**: Supports push notifications, email, and SMS channels.
+- **Journey scheduling**: Configures start dates and timing for scheduled journeys.
 
-### **Fuori ambito**
+### **Out of scope**
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
-- **Analisi avanzata percorso**
-- **Modifiche al percorso in tempo reale**
-- **Orchestrazione tra percorsi**
-- **Configurazione test A/B**
-- **Trasformazioni dati complesse**
+- **Advanced journey analytics**
+- **Real-time journey modifications**
+- **Cross-journey orchestration**
+- **A/B testing configuration**
+- **Complex data transformations**
 
-## Prompt di esempio
+## Sample prompts
 
-### Richieste comuni per la creazione di un percorso
+### Common prompts for journey creation
 
-Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono sfruttare per creare percorsi.
+Here are examples of valuable prompts users can leverage to create journeys.
 
-### Richieste di percorso attivate da eventi
+### Event-triggered journey prompts
 
-**percorso di visite allo store:**
+**Store visit journey:**
 
-&quot;Crea un percorso che inizia quando un utente accede alla posizione del mio negozio. Invia una notifica push per accogliere gli utenti nello store. Attendi 2 giorni e controlla se l’utente ha un indirizzo e-mail valido. Se l’utente dispone di un indirizzo e-mail valido, invia un sondaggio e-mail per chiedere informazioni sulla sua esperienza di negozio. Se l’utente non dispone di un indirizzo e-mail valido, invia una notifica push per richiedere la registrazione.&quot;
+&quot;Create a journey that starts when a user enters my store location. Send a push notification to welcome users to the store. Wait 2 days and check to see if the user has a valid email address. If the user has a valid email address, send an email survey to ask about their store experience. If the user does not have a valid email address, send a push notification to prompt for registration.&quot;
 
-**percorso post-acquisto:**
+**Post-purchase journey:**
 
-&quot;Crea un percorso che inizia quando un cliente effettua un acquisto online. Invia una notifica push per ringraziarli dell’acquisto. Quindi, verifica se sono membri fedeltà. Se l’utente è un membro dei premi fedeltà, invia una seconda notifica push con un codice di sconto del 10%. Se l’utente non è un membro dei premi fedeltà, invia un messaggio push per invitarlo a iscriversi al programma fedeltà. Attendi 2 giorni e invia un messaggio push di follow-up con un sondaggio sulla loro esperienza di acquisto.&quot;
+&quot;Create a journey that starts when a customer makes a purchase online. Send a push notification to thank them for their purchase. Next, check to see if they are loyalty members. If the user is a loyalty rewards member, send a second push notification with a 10% discount code. If the user is not a loyalty rewards member, send a push inviting them to sign up for the loyalty program. Wait 2 days and send a follow-up push with a survey about their purchase experience.&quot;
 
-**Promozione basata su eventi:**
+**Event-based promotion:**
 
-&quot;Crea un percorso attivato quando il punteggio di gioco raggiunge 50. Invia un messaggio SMS ai membri del premio fedeltà che dichiarano di poter usufruire di una fetta gratuita di pizza dallo sponsor partner.&quot;
+&quot;Create a journey triggered when the game score reaches 50. Send an SMS message to loyalty reward members saying that they are eligible for a free slice of pizza from the partner sponsor.&quot;
 
-### Richieste di percorso mirate al pubblico
+### Audience-targeted journey prompts
 
-**Campagna stagionale:**
+**Seasonal campaign:**
 
 &quot;Voglio creare un percorso che si rivolga ad un pubblico di escursionisti. Voglio inviare un messaggio e-mail per avvisare il pubblico della mia prossima vendita di vacanze che include una varietà di elementi essenziali per le escursioni. Attendi 3 giorni dopo l’invio della prima e-mail e invia una seconda e-mail con un coupon del 15% con spedizione gratuita. Attendi 1 settimana e poi invia un terzo messaggio e-mail per mostrare il nostro nuovo sacco a pelo e la collezione di tende. Pianifica il percorso per iniziare il 20/12.&quot;
 
@@ -248,7 +253,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. I professionisti saranno in grado di effettuare decisioni guidate dai dati, migliorare il coinvolgimento cliente e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >

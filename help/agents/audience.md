@@ -1,13 +1,16 @@
 ---
 title: Agente Audience
 description: Scopri come utilizzare Audience Agent per creare tipi di pubblico, visualizzarne le modifiche, rilevare tipi di pubblico duplicati e visualizzarne le informazioni.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 2%
 
 ---
-
 
 # Agente Audience
 
@@ -59,124 +62,124 @@ Inoltre, quando utilizzi Audience Agent, tieni presente i seguenti vincoli:
 - Audience Agent richiede almeno 24 ore per elaborare i tuoi dati
    - **impossibile** ad esempio disporre di una query per la ricerca di dati nelle ultime 24 ore. Dovrai controllare almeno nelle ultime 48 ore.
 - Audience Agent supporta solo i seguenti tipi di pubblico:
-   - **Tipi di pubblico basati sulle persone** valutati mediante segmentazione batch
-   - **Tipi di pubblico basati sull&#39;account** per i seguenti casi d&#39;uso:
-      - Esplorazione del pubblico conversazionale
-      - Rilevamento di pubblico duplicato
+   - **People-based** audiences that are evaluated using batch segmentation
+   - **Account-based** audiences for the following use cases:
+      - Conversational audience exploration
+      - Duplicate audience detection
 
-## Prompt di esempio
+## Sample prompts
 
-Negli esempi seguenti vengono illustrati i prompt di esempio e le risposte per Audience Agent.
+The following examples demonstrate sample prompts and responses for the Audience Agent.
 
-### Esplorazione del pubblico conversazionale
+### Conversational audience exploration
 
-Mostrami i campi per gli acquirenti benestanti.
+Show me fields for affluent buyers.
 
 +++ Risposta
 
-![L&#39;Assistente AI mostra una tabella che mostra i campi rilevanti per gli acquirenti benestanti.](./images/audience/affluent-buyers.png)
+![The AI Assistant shows a table displaying fields that are relevant to affluent buyers.](./images/audience/affluent-buyers.png)
 
 +++
 
-Quali tipi di pubblico non sono stati attivati o utilizzati in alcuna campagna negli ultimi 30 giorni?
+Which audiences have not been activated or used in any campaign in the last 30 days?
 
 +++ Risposta
 
-![L&#39;Assistente AI mostra una tabella che mostra i tipi di pubblico che non sono stati attivati o utilizzati nelle campagne negli ultimi 30 giorni.](./images/audience/not-activated.png)
+![The AI Assistant shows a table that displays audiences that haven&#39;t been activated or used in campaigns in the last 30 days.](./images/audience/not-activated.png)
 
 +++
 
-Elenca tutti i tipi di pubblico che sono stati mappati sulle nuove destinazioni negli ultimi 3 mesi.
+List all the audiences that have been mapped to new destinations in the last 3 months.
 
 +++ Risposta
 
-![L&#39;Assistente AI elenca il pubblico mappato a una nuova destinazione negli ultimi 3 mesi.](./images/audience/new-destination.png)
+![The AI Assistant lists the one audience that has been mapped to a new destination in the last 3 months.](./images/audience/new-destination.png)
 
 +++
 
-Quale pubblico dell’account ha la dimensione di pubblico più grande e qual è tale dimensione?
+Which account audience has the largest audience size and what is that size?
 
 +++ Risposta
 
-![L&#39;Assistente AI mostra una tabella che visualizza i tipi di pubblico dell&#39;account più grandi.](./images/audience/largest-account-audience.png)
+![The AI Assistant shows a table that displays the largest account audiences.](./images/audience/largest-account-audience.png)
 
 +++
 
 ### Rilevare tipi di pubblico duplicati
 
-Ho tipi di pubblico con descrizioni identiche o simili?
+Do I have any audiences with identical or similar descriptions?
 
 +++ Risposta
 
-![L&#39;Assistente AI visualizza una tabella contenente la definizione del segmento e i nomi dei tipi di pubblico con le stesse definizioni del segmento.](./images/audience/similar-descriptions.png)
+![The AI Assistant displays a table that contains the segment definition and the names of the audiences with the same segment definitions.](./images/audience/similar-descriptions.png)
 
 +++
 
-Identifica i tipi di pubblico che hanno le stesse regole ma nomi diversi.
+Identify audiences that have the same rules but have different names.
 
 +++ Risposta
 
-![L&#39;Assistente di IA visualizza una tabella contenente i nomi dei tipi di pubblico che condividono le stesse regole di pubblico.](./images/audience/same-rules-different-names.png)
+![The AI Assistant displays a table that contains the names of audiences that share the same audience rules.](./images/audience/same-rules-different-names.png)
 
 +++
 
-Mostra tutti i tipi di pubblico che hanno le stesse regole ma destinazioni di attivazione diverse.
+Show me all the audiences that have the same rules but different activation destinations.
 
 +++ Risposta
 
-![L&#39;Assistente AI mostra che non sono presenti definizioni di segmenti duplicate in destinazioni diverse.](./images/audience/same-rules-different-destinations.png)
+![The AI Assistant shows that there are no duplicate segment definitions to different destinations.](./images/audience/same-rules-different-destinations.png)
 
 +++
 
-Identifica i tipi di pubblico dell’account che hanno le stesse regole ma nomi diversi.
+Identify account audiences that have the same rules but have different names.
 
 +++ Risposta
 
-![L&#39;Assistente IA visualizza una tabella contenente i nomi e gli ID dei tipi di pubblico dell&#39;account che condividono le stesse regole di pubblico.](./images/audience/duplicate-account-audience.png)
+![The AI Assistant displays a table that contains the names and IDs of account audiences that share the same audience rules.](./images/audience/duplicate-account-audience.png)
 
 +++
 
 ### Recupera dimensione pubblico
 
-Qual è la dimensione attuale del mio pubblico &quot;Membri Gold-star in California_f153e1&quot;?
+What is the current size of my audience &quot;Gold-star Members in California_f153e1&quot;?
 
 +++ Risposta
 
-![L&#39;Assistente di IA indica le dimensioni correnti del pubblico a cui è stato chiesto di fornire informazioni.](./images/audience/current-size.png)
+![The AI Assistant states the current size of the audience that was asked about.](./images/audience/current-size.png)
 
 +++
 
-Qual è il mio pubblico più grande?
+What is my biggest audience?
 
 +++ Risposta
 
-![L&#39;Assistente AI fornisce informazioni sul pubblico con il maggior numero di profili, inclusi nome e ID pubblico.](./images/audience/largest-audience.png)
+![The AI Assistant gives information about the audience with the most profiles, including name and audience ID.](./images/audience/largest-audience.png)
 
 +++
 
 ### Rilevare cambiamenti significativi nelle dimensioni del pubblico
 
-Quali tipi di pubblico sono aumentati di oltre il 20% nell’ultima settimana?
+Which audiences have increased in size by more than 20% in the last week?
 
 +++ Risposta
 
-![L&#39;Assistente IA visualizza una tabella che elenca i nomi di tutti i tipi di pubblico che corrispondono alla query. Mostra inoltre l&#39;aumento percentuale, la dimensione corrente del pubblico e la dimensione precedente del pubblico.](./images/audience/increase-past-week.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the percentage increase, the current audience size, as well as the former audience size.](./images/audience/increase-past-week.png)
 
 +++
 
-Quali tipi di pubblico sono diminuiti di oltre il 10% nell’ultimo mese?
+Which audiences have decreased in size by more than 10% in the last month?
 
 +++ Risposta
 
-![L&#39;Assistente IA visualizza una tabella che elenca i nomi di tutti i tipi di pubblico che corrispondono alla query. Vengono inoltre visualizzate la dimensione del pubblico corrente, la dimensione del pubblico precedente e la data della dimensione del pubblico precedente.](./images/audience/decrease-month.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the current audience size, the former audience size, as well as the date of the old audience size.](./images/audience/decrease-month.png)
 
 +++
 
-Qual è il mio pubblico in più rapida crescita?
+What is my fastest growing audience?
 
 +++ Risposta
 
-![L&#39;Assistente AI indica il nome del pubblico in più rapida crescita, nonché le dimensioni correnti e la percentuale di crescita.](./images/audience/fastest-growing.png)
+![The AI Assistant states the name of the fastest growing audience, as well as the current size and the percentage of growth.](./images/audience/fastest-growing.png)
 
 +++
 
@@ -184,25 +187,25 @@ Qual è il mio pubblico in più rapida crescita?
 
 >[!AVAILABILITY]
 >
->Puoi utilizzare l’abilità Crea pubblico solo se fai parte del programma Agent Orchestrator Explorer. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
+>You can only use the create audience skill if you are part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
 
-Quando crei un pubblico con Audience Agent, l’Assistente AI ti guiderà attraverso un piano. Ad esempio, puoi chiedere di &quot;Creare un pubblico composto da persone che vivono in California&quot;. Assistente IA elenca quindi il piano che verrà intrapreso per creare il pubblico.
+When you create an audience with Audience Agent, AI Assistant will guide you through a plan. For example, you can ask to &quot;Create an audience made up of people who live in California&quot;. AI Assistant then lists the plan that it will undertake to create the audience.
 
 +++ Risposta
 
-![L&#39;Assistente AI mostra il piano per la creazione di un pubblico.](./images/audience/audience-create-plan.png)
+![The AI Assistant shows the plan to create an audience.](./images/audience/audience-create-plan.png)
 
 +++
 
-Il piano si articola in tre fasi:
+This plan is made up of three steps:
 
-1. [Identificare le caratteristiche del pubblico](#identify)
-2. [Stimare la dimensione del pubblico](#estimate)
-3. [Creare e mantenere un nuovo pubblico](#create)
+1. [Identify audience characteristics](#identify)
+2. [Estimate audience size](#estimate)
+3. [Create and persist a new audience](#create)
 
-#### Identificare le caratteristiche del pubblico {#identify}
+#### Identify audience characteristics {#identify}
 
-![Passaggio 1 del piano, che consiste nell&#39;identificare le caratteristiche del pubblico.](./images/audience/plan-step-1.png){align="center" width="80%"}
+![Step 1 of the plan, which is to identify audience characteristics.](./images/audience/plan-step-1.png){align="center" width="80%"}
 
 Dopo aver accettato il piano, l’Assistente AI acquisirà le caratteristiche del pubblico in base alla query iniziale.
 
@@ -216,7 +219,7 @@ Per questa query, l’Assistente AI genera il Profile Query Language (PQL) rilev
 homeAddress.state.equals("California", false)
 ```
 
-Per ulteriori informazioni su PQL, leggere la [panoramica di PQL](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/pql/overview).
+Per ulteriori informazioni su PQL, leggere la [panoramica di PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 

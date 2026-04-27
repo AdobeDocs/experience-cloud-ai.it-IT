@@ -1,43 +1,47 @@
 ---
-title: Versione di prova degli agenti Adobe Experience Platform
-description: Scopri la versione di prova gratuita per gli agenti Adobe Experience Platform.
-source-git-commit: 268098d64d80d25d390743cf2b888a0aea429a0d
+title: Adobe Experience Platform Agents Trial
+description: Learn about the the complimentary trial for Adobe Experience Platform Agents.
+TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 5%
 
 ---
 
-# Versione di prova degli agenti Adobe Experience Platform
+# Adobe Experience Platform Agents trial
 
 >[!AVAILABILITY]
 >
->Alcuni clienti Experience Cloud idonei possono avere accesso alla versione di prova di Adobe Experience Platform Agents per sperimentare il valore degli agenti nel proprio ambiente prima di assumere l’impegno di concedere la licenza.
+>Certain eligible Experience Cloud customers may have access to the Adobe Experience Platform Agents trial to experience the value of the Agents in their own environment before making the commitment to license.
 
-Il video seguente ha lo scopo di illustrare la versione di prova degli agenti Adobe Experience Platform.
+The following video is intended to support your understanding of the Adobe Experience Platform Agents trial.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480236?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
 
-## Cosa è disponibile con la versione di prova
+## What is available with the trial
 
-- **Assistente AI**: un&#39;interfaccia conversazionale a pagina intera e coinvolgente basata su Agent Orchestrator che funziona tra prodotti diversi, consentendo ai professionisti che utilizzano prodotti Experience Cloud abilitati di sfruttare le funzionalità GenAI e Agentic AI. Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
-- **Agenti Adobe Experience Platform**: agenti di intelligenza artificiale appositamente creati e specializzati nella distribuzione di processi comuni tra le categorie del dominio dell&#39;esperienza del cliente. Puoi sfruttare gli agenti per espandere la tua capacità di creare e distribuire esperienze in modo più rapido e con un impatto maggiore, sbloccando produttività ed efficienza di livello superiore. Per informazioni sugli agenti che possono essere utilizzati con ogni applicazione Experience Cloud, consulta la documentazione su [Agentic AI in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/agentic-ai).
+- **AI Assistant**: A full-page, immersive conversational interface powered by Agent Orchestrator and works cross-product, enabling practitioners using enabled Experience Cloud products to leverage GenAI and Agentic AI capabilities. Per ulteriori informazioni, consulta la [Guida all’interfaccia utente dell’Assistente IA](../ai-assistant/ai-assistant-ui.md).
+- **Adobe Experience Platform Agents**: Purpose-built AI agents skilled in delivering common jobs across customer experience domain categories. You can leverage Agents to expand your capacity to create and deliver experiences faster and with greater impact, unlocking next level productivity and efficiency. To understand what Agents can be leveraged with each Experience Cloud application, read the documentation on [Agentic AI in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/features/agentic-ai).
 
-## Dettagli del programma di prova
+## Trial program details
 
-Adobe determinerà a sua esclusiva discrezione la tua idoneità alla sperimentazione. I clienti che hanno o avevano in precedenza una licenza di Adobe Experience Platform Agent Orchestrator Promotion o una licenza di Experience Platform Agents AI Credits non sono idonei per la versione di prova.
+Adobe will determine your eligibility for the trial at its sole discretion. Customers who currently have or previously had an Adobe Experience Platform Agent Orchestrator Promotion license or an Experience Platform Agents AI Credits license are not eligible for the trial.
 
-I clienti idonei ricevono un diritto una tantum iniziale fino a 10.000 crediti AI da utilizzare per qualsiasi combinazione di processi (a seconda delle licenze esistenti per le applicazioni Experience Cloud) elencati nella [Tabella consumo di credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption). Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+Eligible customers receive an initial one-time entitlement of up to 10,000 AI Credits to use for any combination of Jobs (depending on your existing license(s) to Experience Cloud applications) listed in the [AI Credit Consumption Table](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). You can track your AI Credits using the license usage dashboard in the Adobe Experience Platform UI. For more information, read the [license usage dashboard documentation](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
->I crediti AI esistono solo per la durata della prova e **non vengono riportati** se si concede la licenza per crediti AI aggiuntivi prima di utilizzare l&#39;intero diritto di 10.000 crediti AI.
+>AI Credits only exist for the duration of the trial and **do not roll over** if you license additional AI Credits before using the full 10,000 AI Credit entitlement.
 
-La versione di valutazione termina quando utilizzi l’adesione iniziale una tantum di 10.000 crediti AI o licenze di crediti AI aggiuntivi. Anche se non è possibile perdere immediatamente l’accesso o essere addebitati per interruzioni, l’estensione di tali benefici è a discrezione di Adobe. Al termine della versione di valutazione, devi ottenere una licenza per crediti AI aggiuntivi per continuare a utilizzare gli agenti Experience Platform senza interruzioni. Contatta il team del tuo account Adobe per informazioni su come concedere in licenza crediti AI aggiuntivi.
+The trial ends once you consume the initial one-time entitlement of 10,000 AI Credits or licenses additional AI Credits. While you may not immediately lose access or be charged overages, the extension of those benefits is at Adobe&#39;s discretion. You must license additional AI Credits as soon as the trial is complete in order to continue using Experience Platform Agents without disruption. Please contact your Adobe Account Team for guidance on how to license additional AI Credits.
 
-## Accedere e iniziare a utilizzare l’Assistente all’intelligenza artificiale con tecnologia Agent Orchestrator
+## Access and Start Using AI Assistant powered by Agent Orchestrator
 
-Gli utenti dei clienti idonei avranno accesso all’Assistente e agli Agenti di intelligenza artificiale come parte della prova, pertanto non è necessaria alcuna azione. Gli agenti Experience Platform sono guidati dall’input dell’utente e dalla supervisione. Gli agenti inoltre rispettano i controlli di accesso a livello di prodotto definiti in precedenza, in modo che gli utenti possano eseguire solo processi o azioni per i quali dispongono di autorizzazioni all’interno dei prodotti Experience Cloud sottostanti applicabili. Se desideri rinunciare all&#39;accesso a queste funzionalità Agentic e disabilitare l&#39;accesso di prova, invia una richiesta a [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+Users of eligible customers will have access to AI Assistant and Agents as part of the trial, so no action is needed. Gli agenti Experience Platform sono guidati dall’input dell’utente e dalla supervisione. Gli agenti inoltre rispettano i controlli di accesso a livello di prodotto definiti in precedenza, in modo che gli utenti possano eseguire solo processi o azioni per i quali dispongono di autorizzazioni all’interno dei prodotti Experience Cloud sottostanti applicabili. Se desideri rinunciare all&#39;accesso a queste funzionalità Agentic e disabilitare l&#39;accesso di prova, invia una richiesta a [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 Una volta ottenuto l’accesso, accedi alla home page di Adobe Experience Cloud per iniziare a utilizzare l’Assistente AI. È possibile utilizzare i [prompt di individuazione](../ai-assistant/ai-assistant-ui.md#discovery-prompts) per visualizzare suggerimenti per i prompt e i flussi di lavoro comuni. Utilizza questa funzione per accelerare l’onboarding con l’Assistente AI. Inoltre, leggere la [libreria di prompt](../ai-assistant/prompt-library.md) per una serie di prompt che è possibile utilizzare con agenti diversi. Per informazioni più complete, leggere la [Guida dell&#39;interfaccia utente dell&#39;Assistente AI](../ai-assistant/ai-assistant-ui.md).
 
@@ -65,7 +69,7 @@ La versione di prova viene implementata gradualmente per alcuni clienti Adobe Ex
 
 ### Quanti crediti AI ottengo e cosa succede quando questi crediti AI vengono utilizzati?
 
-I clienti idonei ricevono fino a 10.000 crediti di intelligenza artificiale per la prova, che vengono utilizzati come agenti che eseguono processi. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/it/docs/core-services/interface/features/ai-credit-consumption).
+I clienti idonei ricevono fino a 10.000 crediti di intelligenza artificiale per la prova, che vengono utilizzati come agenti che eseguono processi. Tieni presente che questi crediti AI esistono solo per la durata dell’esperienza di prova e non vengono rinnovati se ottieni licenza per crediti AI aggiuntivi prima di utilizzare tutti i 10.000 crediti AI. Per ulteriori informazioni sul consumo di credito AI, leggere la [Guida ai processi dell&#39;agente e al consumo di credito AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Questo costa qualcosa?
 
@@ -73,7 +77,7 @@ La versione di prova non richiede alcun acquisto aggiuntivo. Non esiste una conv
 
 ### Chi può vedere l’utilizzo e come?
 
-Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage).
+Puoi tenere traccia dei crediti AI utilizzando il dashboard utilizzo licenze nell’interfaccia utente di Adobe Experience Platform. Per ulteriori informazioni, leggere la [documentazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Utilizza la dashboard per visualizzare l’utilizzo e il reporting dei crediti AI. Solo gli amministratori e gli utenti con le autorizzazioni appropriate possono visualizzare le informazioni sull’utilizzo.
 
