@@ -29,14 +29,19 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2687
 ht-degree: 14%
 
 ---
 
+
 # Journey Agent: Panoramica e guida utente
+
+>[!AVAILABILITY]
+>
+>Le competenze per la creazione di contenuti di Journey Agent sono disponibili per i clienti che fanno parte del programma Agent Orchestrator Explorer. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
 
 ## Introduzione a Journey Agent in Adobe Journey Optimizer
 
@@ -56,7 +61,7 @@ La creazione di percorsi consente agli utenti di Journey Optimizer di creare e c
 
 >[!AVAILABILITY]
 >
->La funzione Creazione percorso è disponibile per tutti i clienti che hanno accesso all’Assistente IA. Tuttavia, per utilizzare completamente le funzioni di creazione dei Percorsi sono necessarie le seguenti autorizzazioni:
+>La funzione Creazione percorso è disponibile per i clienti che fanno parte del programma Agent Orchestrator Explorer. Per utilizzare completamente le funzioni di creazione dei Percorsi sono inoltre necessarie le seguenti autorizzazioni:
 >
 >**Gestisci Percorsi**: questa autorizzazione consente di creare nuovi percorsi direttamente nell&#39;Assistente IA.
 >
@@ -76,75 +81,75 @@ Percorso Creazione di offerte funzionalità che possono essere utilizzate per ac
 
    - Creazione di percorsi che si attivano in base a eventi cliente specifici.
    - Progetta risposte automatizzate alle azioni dei clienti in tempo reale.
-   - Build personalized communication flows based on customer behavior.
+   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
 
-1. **Audience-targeted journey creation**
+1. **Creazione di percorsi con targeting di pubblico**
 
-   - Build journeys targeting specific audience segments.
-   - Design multi-step communication sequences with strategic timing.
+   - Crea percorsi rivolti a segmenti di pubblico specifici.
+   - Progettazione di sequenze di comunicazione in più fasi con tempistiche strategiche.
 
-1. **Business-event triggered journey creation**
+1. **Creazione percorso attivata da un evento business**
 
-   - Create journeys that activate based on a particular business event and target a specified audience (e.g. product back in stock or game score change)
-   - Build personalized communication flows based on customer behavior.
+   - Creazione di percorsi che si attivano in base a un particolare evento di business e si rivolgono a un pubblico specifico (ad esempio, il prodotto torna in magazzino o cambia il punteggio di gioco)
+   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
 
-1. **Audience qualification journey creation**
+1. **Creazione del percorso di qualificazione del pubblico**
 
-   - Create journeys that activate as profiles enter or exit an audience segment definition.
-   - Build personalized communication flows based on customer behavior.
+   - Crea percorsi che si attivano quando i profili entrano o escono da una definizione di segmento di pubblico.
+   - Creare flussi di comunicazione personalizzati in base al comportamento del cliente.
 
-1. **Conditional journey flows**
+1. **Flussi percorso condizionale**
 
-   - Create decision branches based on customer attributes.
-   - Design split paths that adapt to customer preferences.
+   - Crea rami decisionali in base agli attributi del cliente.
+   - Progetta percorsi suddivisi in base alle preferenze del cliente.
 
-For each of these use cases, the agent translates natural language requirements into structured journey configurations.
+Per ciascuno di questi casi d’uso, l’agente traduce i requisiti di linguaggio naturale in configurazioni di percorso strutturate.
 
-## In scope and out of scope skills
+## Competenze nel campo di applicazione e fuori campo di applicazione
 
-### **In scope**
+### **Nell&#39;ambito**
 
-The following capabilities are supported by Journey Create:
+Le seguenti funzionalità sono supportate da Creazione Percorso:
 
-- **Natural language journey creation**: Allows users to describe journey flow in conversational language.
-- **Event-based and audience-based journeys**: Supports both trigger-based and scheduled journey types, also business event and audience qualification.
-- **Conditional logic**: Handles decision splits and branching based on customer attributes.
-- **Multi-channel messaging**: Supports push notifications, email, and SMS channels.
-- **Journey scheduling**: Configures start dates and timing for scheduled journeys.
+- **Creazione di un percorso in linguaggio naturale**: consente agli utenti di descrivere il flusso di percorso in linguaggio di conversazione.
+- **percorsi basati su eventi e su pubblico**: supporta sia i tipi di percorso basati su attivatori che quelli pianificati, nonché la qualificazione di eventi di business e pubblico.
+- **Logica condizionale**: gestisce le suddivisioni e le diramazioni delle decisioni in base agli attributi del cliente.
+- **Messaggistica multicanale**: supporta notifiche push, e-mail e canali SMS.
+- **Pianificazione Percorsi**: configura le date di inizio e gli orari per i percorsi pianificati.
 
-### **Out of scope**
+### **Fuori ambito**
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
-- **Advanced journey analytics**
-- **Real-time journey modifications**
-- **Cross-journey orchestration**
-- **A/B testing configuration**
-- **Complex data transformations**
+- **Analisi avanzata percorso**
+- **Modifiche al percorso in tempo reale**
+- **Orchestrazione tra percorsi**
+- **Configurazione test A/B**
+- **Trasformazioni dati complesse**
 
-## Sample prompts
+## Prompt di esempio
 
-### Common prompts for journey creation
+### Richieste comuni per la creazione di un percorso
 
-Here are examples of valuable prompts users can leverage to create journeys.
+Di seguito sono riportati alcuni esempi di prompt utili che gli utenti possono sfruttare per creare percorsi.
 
-### Event-triggered journey prompts
+### Richieste di percorso attivate da eventi
 
-**Store visit journey:**
+**percorso di visite allo store:**
 
-&quot;Create a journey that starts when a user enters my store location. Send a push notification to welcome users to the store. Wait 2 days and check to see if the user has a valid email address. If the user has a valid email address, send an email survey to ask about their store experience. If the user does not have a valid email address, send a push notification to prompt for registration.&quot;
+&quot;Crea un percorso che inizia quando un utente accede alla posizione del mio negozio. Invia una notifica push per accogliere gli utenti nello store. Attendi 2 giorni e controlla se l’utente ha un indirizzo e-mail valido. Se l’utente dispone di un indirizzo e-mail valido, invia un sondaggio e-mail per chiedere informazioni sulla sua esperienza di negozio. Se l’utente non dispone di un indirizzo e-mail valido, invia una notifica push per richiedere la registrazione.&quot;
 
-**Post-purchase journey:**
+**percorso post-acquisto:**
 
-&quot;Create a journey that starts when a customer makes a purchase online. Send a push notification to thank them for their purchase. Next, check to see if they are loyalty members. If the user is a loyalty rewards member, send a second push notification with a 10% discount code. If the user is not a loyalty rewards member, send a push inviting them to sign up for the loyalty program. Wait 2 days and send a follow-up push with a survey about their purchase experience.&quot;
+&quot;Crea un percorso che inizia quando un cliente effettua un acquisto online. Invia una notifica push per ringraziarli dell’acquisto. Quindi, verifica se sono membri fedeltà. Se l’utente è un membro dei premi fedeltà, invia una seconda notifica push con un codice di sconto del 10%. Se l’utente non è un membro dei premi fedeltà, invia un messaggio push per invitarlo a iscriversi al programma fedeltà. Attendi 2 giorni e invia un messaggio push di follow-up con un sondaggio sulla loro esperienza di acquisto.&quot;
 
-**Event-based promotion:**
+**Promozione basata su eventi:**
 
-&quot;Create a journey triggered when the game score reaches 50. Send an SMS message to loyalty reward members saying that they are eligible for a free slice of pizza from the partner sponsor.&quot;
+&quot;Crea un percorso attivato quando il punteggio di gioco raggiunge 50. Invia un messaggio SMS ai membri del premio fedeltà che dichiarano di poter usufruire di una fetta gratuita di pizza dallo sponsor partner.&quot;
 
-### Audience-targeted journey prompts
+### Richieste di percorso mirate al pubblico
 
-**Seasonal campaign:**
+**Campagna stagionale:**
 
 &quot;Voglio creare un percorso che si rivolga ad un pubblico di escursionisti. Voglio inviare un messaggio e-mail per avvisare il pubblico della mia prossima vendita di vacanze che include una varietà di elementi essenziali per le escursioni. Attendi 3 giorni dopo l’invio della prima e-mail e invia una seconda e-mail con un coupon del 15% con spedizione gratuita. Attendi 1 settimana e poi invia un terzo messaggio e-mail per mostrare il nostro nuovo sacco a pelo e la collezione di tende. Pianifica il percorso per iniziare il 20/12.&quot;
 
