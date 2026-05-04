@@ -31,7 +31,7 @@ Per utilizzare l&#39;agente di individuazione campi, verificare di disporre dei 
 - L’organizzazione e la sandbox corrette
 - Accesso agli schemi e ai set di dati che si intende interrogare
 
-Una conoscenza di base degli schemi XDM e del modo in cui i campi vengono utilizzati nella segmentazione o nei flussi di lavoro dei dati può aiutarti a interpretare i risultati in modo più efficace. Per ulteriori informazioni, vedere la [panoramica XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e la [documentazione dell&#39;editor di schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Una conoscenza di base degli schemi XDM e del modo in cui i campi vengono utilizzati nella segmentazione o nei flussi di lavoro dei dati può aiutarti a interpretare i risultati in modo più efficace. Per ulteriori informazioni, vedere la [panoramica XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e la [documentazione dell&#39;editor di schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Per istruzioni su come abilitare l&#39;accesso all&#39;Assistente AI e concedere le autorizzazioni necessarie, consulta la [guida all&#39;accesso di Agent Orchestrator](./agent-orchestrator.md#access).
 
@@ -81,7 +81,7 @@ Accanto a ogni suggerimento di campo, l&#39;agente di individuazione campi visua
 >
 >I valori di esempio possono contenere dati PII. Non condividerli all’esterno di flussi di lavoro interni sicuri.
 
-I valori di esempio sono visibili solo per i campi all’interno delle autorizzazioni di accesso al set di dati. Per informazioni sulla governance dei dati e sulle restrizioni di utilizzo in Experience Platform, consulta la [Panoramica sulla governance dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home).
+I valori di esempio sono visibili solo per i campi all’interno delle autorizzazioni di accesso al set di dati. Per informazioni sulla governance dei dati e sulle restrizioni di utilizzo in Experience Platform, consulta la [Panoramica sulla governance dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/home).
 
 Se non vengono visualizzati valori di esempio per un campo, il campo potrebbe essere vuoto nella sandbox corrente o le autorizzazioni potrebbero non includere l’accesso al relativo set di dati sottostante. Anche i campi con cardinalità elevata (come i campi Identificatore o UUID) potrebbero non restituire valori di esempio rappresentativi. I valori di esempio sono aggregati e basati sulla frequenza e non sono tracciabili per i singoli profili.
 
@@ -213,7 +213,7 @@ Se disponi dell’accesso per la modifica dello schema, puoi migliorare la quali
 - Se possibile, aggiungere descrizioni dei campi.
 - Associare i campi ai set di dati attivi anziché lasciarli come definizioni di solo schema.
 
-Per informazioni sulla modifica dei nomi e delle descrizioni dei campi visualizzati nell&#39;Editor di schema, vedere [Creare e modificare schemi nell&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas).
+Per informazioni sulla modifica dei nomi e delle descrizioni dei campi visualizzati nell&#39;Editor di schema, vedere [Creare e modificare schemi nell&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas).
 
 Se non disponi dell’accesso per la modifica dello schema e i risultati sono costantemente scarsi, contatta l’amministratore di Experience Platform o il team di progettazione dati per rivedere i metadati dei campi per gli schemi con cui lavori.
 
