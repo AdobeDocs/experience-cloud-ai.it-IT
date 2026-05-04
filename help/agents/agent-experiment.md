@@ -1,7 +1,6 @@
 ---
-title: Experimentation Agent
-description: Learn how to use Experimentation Agent
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+title: Agente di sperimentazione
+description: Scopri come utilizzare l’agente di sperimentazione
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role_v2:
@@ -13,60 +12,64 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
 
 ---
 
-# Experimentation Agent
+# Agente di sperimentazione
+
+<!--
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+-->
 
 >[!AVAILABILITY]
 >
->The Experimentation Agent is available to all customers who have purchased the paid license of Journey Optimizer Experimentation Accelerator and integrates seamlessly with either Adobe Target or Adobe Journey Optimizer.
+>L’agente di sperimentazione è disponibile per tutti i clienti che hanno acquistato la licenza a pagamento di Journey Optimizer Experimentation Accelerator e si integra perfettamente con Adobe Target o Adobe Journey Optimizer.
 >
->[Learn more on Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/overview)
+>[Ulteriori informazioni su Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/overview)
 
 ## Panoramica
 
-The **Experimentation Agent** is an AI-powered tool that modernizes how you can run and manage digital experiments across websites, emails, push messages, and applications. Built on Adobe Experience Platform AI platform and experimentation tools, the **Experimentation Agent** helps you run experiments more efficiently, organize business goals, and generate actionable insights, highlighting what worked, what did not, and where to experiment next.
+L&#39;**agente di sperimentazione** è uno strumento basato sull&#39;intelligenza artificiale che modernizza le modalità di esecuzione e gestione degli esperimenti digitali su siti Web, e-mail, messaggi push e applicazioni. Basato sulla piattaforma di intelligenza artificiale e sugli strumenti di sperimentazione di Adobe Experience Platform, l&#39;**agente di sperimentazione** consente di eseguire gli esperimenti in modo più efficiente, organizzare gli obiettivi di business e generare informazioni fruibili, evidenziando ciò che ha funzionato, ciò che non ha funzionato e dove sperimentare successivamente.
 
-The following permissions in order to fully use the Experimentation Agent features.
+Le seguenti autorizzazioni per utilizzare completamente le funzioni dell’agente di sperimentazione.
 
-* **View Experiments**: This permission lets you use the Experimentation Agent to view insights into the experiment directly in AI Assistant.
+* **Visualizza esperimenti**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per visualizzare informazioni approfondite sull&#39;esperimento direttamente nell&#39;Assistente IA.
 
-* **Manage Experiment Metada**: This permission lets you use the Experimentation Agent to create new experiments directly in AI Assistant.
+* **Gestisci esperimento Metada**: questa autorizzazione consente di utilizzare l&#39;agente di sperimentazione per creare nuovi esperimenti direttamente nell&#39;Assistente di intelligenza artificiale.
 
-➡️ [Learn more in Journey Optimizer Experimentation Accelerator documentation](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Ulteriori informazioni nella documentazione di Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/it/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
-As part of Experimentation Accelerator feature, the Agent delivers:
+Come parte della funzione di Experimentation Accelerator, l’agente offre:
 
-* **Performance**: a clear view of what happened in the experiment
+* **Prestazioni**: una chiara visualizzazione di ciò che è successo nell&#39;esperimento
 
-* **Insights**: an explanation of why the results occurred
+* **Informazioni**: spiegazione del motivo per cui si sono verificati i risultati
 
-* **Opportunities**: guidance on the next actions to take
+* **Opportunità**: indicazioni sulle prossime azioni da intraprendere
 
-![Sample for Experimentation Agent](./images/experiment/experiment-agent.png)
+![Esempio per agente di sperimentazione](./images/experiment/experiment-agent.png)
 
 ## Casi d’uso
 
-The Experimentation Agent enhances each phase of the experimentation workflow by analyzing results, interpreting content, and suggesting next steps.
+L’agente di sperimentazione migliora ogni fase del flusso di lavoro di sperimentazione analizzando i risultati, interpretando i contenuti e suggerendo i passaggi successivi.
 
-Its capabilities can be grouped into five key functions:
+Le sue funzionalità possono essere raggruppate in cinque funzioni chiave:
 
-* **Experiment Summarization**
+* **Riepilogo esperimenti**
 
-  Provide a clear, non-technical overview of experiment results for stakeholders.
+  Fornisci alle parti interessate una panoramica chiara e non tecnica dei risultati dell’esperimento.
 
-* **Content Analysis**
+* **Analisi dei contenuti**
 
-  Examine the messaging or creative elements of treatments to understand why certain ones outperformed others.
+  Esamina la messaggistica o gli elementi creativi dei trattamenti per capire perché alcuni hanno avuto risultati migliori degli altri.
 
-* **Attribute Identification**
+* **Identificazione attributo**
 
-  Categorize treatments by their key attributes, e.g., themes, tones, formats, and connect those attributes to conversion outcomes.
+  Categorizza i trattamenti in base ai loro attributi chiave, ad esempio temi, toni, formati e collega tali attributi ai risultati della conversione.
 
 * **Generazione consigli**
 
