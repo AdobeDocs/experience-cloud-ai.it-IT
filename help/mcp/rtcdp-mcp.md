@@ -75,7 +75,7 @@ Il rilascio di Beta include i seguenti 18 strumenti:
 
 ## Casi d’uso {#mcp-use-cases}
 
-Il server MCP di Real-Time CDP è progettato per il monitoraggio e la valutazione **1}.** Poiché il server funziona con gli ID piuttosto che con i nomi, un flusso di lavoro tipico inizia con un elenco: chiedi a Claude di mostrarti cosa è disponibile, scegli l&#39;elemento desiderato, quindi fai domande di follow-up utilizzando l&#39;ID che restituisce.
+Il server MCP di Real-Time CDP è progettato per il monitoraggio e la valutazione **1&rbrace;.** Poiché il server funziona con gli ID piuttosto che con i nomi, un flusso di lavoro tipico inizia con un elenco: chiedi a Claude di mostrarti cosa è disponibile, scegli l&#39;elemento desiderato, quindi fai domande di follow-up utilizzando l&#39;ID che restituisce.
 
 | Obiettivo | Esempio di prompt |
 | --- | --- |
@@ -136,7 +136,7 @@ Il server utilizza un **trasporto HTTP remoto (Streamable HTTP)** con un **fluss
 
 1. Aggiungi l&#39;URL del server: `https://rtcdp-mcp.adobe.io/mcp`
 2. Salva o abilita la connessione.
-3. Completa l&#39;accesso ad Adobe basato su browser **** la prima volta che il client richiama uno strumento.
+3. Completa l&#39;accesso ad Adobe basato su browser **&#x200B;**&#x200B;la prima volta che il client richiama uno strumento.
 4. Fornire `imsOrgId` e `sandboxName` all&#39;inizio di ogni sessione.
 
 ### Configurazione JSON generale {#mcp-connect-json}
