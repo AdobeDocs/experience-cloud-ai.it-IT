@@ -5,34 +5,15 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f68659190b3333b918e6d5d5aaec37d1f9a28d49
 workflow-type: tm+mt
-source-wordcount: 2687
-ht-degree: 14%
+source-wordcount: 3361
+ht-degree: 11%
 
 ---
 
@@ -47,11 +28,17 @@ ht-degree: 14%
 
 Journey Agent consente agli utenti di Journey Optimizer di creare, analizzare e ottimizzare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con l’agente Journey, i professionisti possono generare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o pubblico, analizzare le prestazioni e i tassi di abbandono e identificare i percorsi che funzionano meglio per replicarli in future campagne. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
-Journey Agent è costituito da tre attività principali:
+Journey Agent è costituito da quattro attività principali:
 
 - **Creazione Percorso**: crea e configura percorsi di marketing tramite messaggi in linguaggio naturale
 - **Creazione di contenuti per il canale**: genera, modifica e gestisci contenuti specifici per il canale (e-mail, push, SMS) per percorsi che utilizzano la generazione di contenuti basati sull&#39;intelligenza artificiale
 - **Analisi dei Percorsi**: analisi dei percorsi, rilevamento dei problemi, individuazione di informazioni e ottimizzazione del coinvolgimento dei clienti
+
+Inoltre, **Simulazione Percorso** è una funzionalità di Journey Optimizer che include [Simulazione Percorso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), un&#39;abilità di agente nel prodotto, non di conversazione, con tre funzionalità:
+
+- Generazione di utenti simulati
+- Generazione dei valori evento
+- Simulazione rapida
 
 ## Creazione percorso: casi d’uso, competenze per gli agenti e guida utente
 
@@ -277,7 +264,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Journey Agent consentirà agli utenti di Journey Optimizer di analizzare e ottimizzare i percorsi utilizzando un&#39;interfaccia in linguaggio naturale. Con Journey Agent, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni o consigli. I professionisti saranno in grado di effettuare decisioni guidate dai dati, migliorare il coinvolgimento cliente e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -419,8 +406,82 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 - **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 - **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
 
-## Diapositive e presentazioni
+## Simulazione percorso: casi d’uso, competenze e guida utente
 
->[!NOTE]
->
->Le diapositive e il materiale per le presentazioni di Journey Agent saranno disponibili qui. Controlla di nuovo a breve se ci sono aggiornamenti.
+## Panoramica
+
+>[!BEGINSHADEBOX]
+
+La simulazione del percorso è disponibile per tutti i clienti Journey Optimizer. Percorsi Simulate, l’abilità di agente interno al prodotto all’interno di Percorsi Simulation, è disponibile per i clienti che fanno parte del programma Agent Orchestrator Explorer e richiede almeno una delle seguenti autorizzazioni:
+
+- **Simula percorsi**: esegui flussi di lavoro di simulazione dall&#39;area di lavoro del percorso.
+
+- **Pubblica percorsi**: pubblica percorsi, inclusi i flussi che utilizzano la simulazione prima del lancio.
+
+- **Approva e pubblica percorsi**: approva e pubblica percorsi quando l&#39;organizzazione utilizza flussi di lavoro di approvazione.
+
+Per utilizzare l&#39;intelligenza artificiale in **[!UICONTROL Simulazione]** (**[!UICONTROL Simulazione rapida]**, generazione di utenti simulati con intelligenza artificiale, **[!UICONTROL Generare valori evento]**), gli utenti richiedono l&#39;autorizzazione **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
+
+[Ulteriori informazioni sulle autorizzazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+
+>[!ENDSHADEBOX]
+
+La simulazione di percorso è una funzione di Journey Optimizer che consente agli utenti di Journey Optimizer di testare e convalidare in modo sicuro i percorsi di marketing prima dell’attivazione. All’interno di Simulazione Percorso, Simulazione Percorso è un’abilità agente nel prodotto, non conversazionale, che automatizza e assiste il processo di test direttamente dall’area di lavoro del percorso.
+
+Percorsi Simulate include tre funzionalità:
+
+- Generazione di utenti simulati
+- Generazione dei valori evento
+- Simulazione rapida.
+
+Insieme, colmano il divario tra la creazione e l’attivazione del percorso, creando fiducia nella logica di percorso e riducendo il rischio di errori post-avvio.
+
+## Casi d’uso
+
+### Casi d’uso principali per Simulazione Percorso
+
+Percorsi Simulate offre tre funzionalità che possono essere utilizzate per ridurre i tempi di test e migliorare la qualità del percorso prima del lancio:
+
+**Generazione utenti simulati**
+
+- Genera automaticamente utenti simulati in base ai percorsi del percorso e agli attributi richiesti.
+- Creare utenti simulati che coprono tutti i rami e le condizioni di un percorso, inclusi gli indirizzi di esecuzione (e-mail, push, SMS).
+- Aggiorna gli attributi utente simulati su richiesta per perfezionare gli scenari di test.
+- Assicurati che tutti i rami del percorso siano coperti assegnando l’utente simulato giusto a ciascun percorso.
+
+**Generazione dei valori evento**
+
+- Genera valori per gli eventi utilizzati in un percorso per indirizzare l’esecuzione dei test attraverso percorsi specifici.
+- Definisci i valori degli attributi dell’evento che attivano le condizioni e i rami desiderati durante la simulazione.
+
+**Simulazione rapida**
+
+- Avvia la simulazione del percorso e attiva le esecuzioni dei test per tutti gli utenti simulati necessari per testare tutti i percorsi di un percorso, in una singola interazione.
+- Visualizza il modo in cui gli utenti simulati attraversano un percorso, passo dopo passo, inclusi i percorsi di diramazione e la logica condizionale.
+- Identifica l’utente simulato che passa attraverso quale percorso e perché, con un dettagliato attraversamento nodo per nodo.
+- Rivedi i rapporti di simulazione alla fine di un’esecuzione nell’interfaccia utente di Journey Optimizer per convalidare i risultati prima dell’attivazione.
+
+## Competenze e limitazioni in ambito
+
+### **Nell&#39;ambito**
+
+La funzione Simulazione Percorso supporta le seguenti funzionalità:
+
+- **Gestione utente simulata**: visualizza, modifica e aggiorna gli attributi utente simulati, inclusi gli indirizzi di esecuzione e i dati di personalizzazione.
+- **Controllo simulazione**: avviare e interrompere la simulazione del percorso direttamente tramite l&#39;esperienza interna al prodotto della simulazione del Percorso.
+- **Esecuzione test**: attiva le esecuzioni dei test per uno o più utenti simulati.
+- **Visualizzazione del flusso di Percorso**: visualizzazione dettagliata degli utenti simulati attraverso i nodi del percorso, inclusi ramificazioni, divisioni e stato degli utenti.
+- **Rapporti per simulazioni**: visualizza i rapporti alla fine dell&#39;esecuzione di una simulazione nell&#39;interfaccia utente di Journey Optimizer.
+- **Test multiutente**: esegui e visualizza test per più utenti simulati contemporaneamente, includendo tutti i rami del percorso.
+
+Inoltre, le seguenti funzionalità sono supportate dall’abilità Simulazione di Percorso:
+
+- **Generazione utente simulata**: creazione di utenti simulati in base a percorsi di percorso, profili di test esistenti o attributi specificati.
+- **Generazione di valori evento**: genera e assegna valori di attributi evento per indirizzare l&#39;esecuzione dei test attraverso percorsi di percorso specifici.
+- **Simulazione rapida**: eseguire una simulazione end-to-end completa con un intervento minimo. L’abilità genera automaticamente utenti simulati, valori di evento e impostazioni di test preriempite, quindi esegue il percorso e mette in superficie i risultati per la revisione.
+
+### **Limitazioni**
+
+La simulazione potrebbe non supportare tutte le attività, i canali o le integrazioni supportati dalla modalità di test o da un percorso live e il comportamento potrebbe cambiare con il maturare della funzionalità.
+
+➡️ Ulteriori informazioni sulle [limitazioni della simulazione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) nella documentazione di Journey Optimizer.
